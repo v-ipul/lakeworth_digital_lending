@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>xdo_dc_Universal_360_Id__c</fullName>
+    <externalId>false</externalId>
+    <label>Universal 360 Id</label>
+    <referenceTo>xdo_dc_universal_360__c</referenceTo>
+    <relationshipName>Universal_Childs</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

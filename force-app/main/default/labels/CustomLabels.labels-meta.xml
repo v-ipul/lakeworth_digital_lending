@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Address_Update</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Address_Update</shortDescription>
+        <value>Address Update</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Billing_Address</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Billing Address</shortDescription>
+        <value>Billing Address</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Billing_Address_Not_Defined</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Billing Address Not Defined</shortDescription>
+        <value>Billing address not defined for account</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Cancel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Checkout_Estimated_Shipping</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Checkout Estimated Shipping</shortDescription>
+        <value>Estimated Shipping:</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Checkout_Estimated_Tax</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Checkout Estimated Tax</shortDescription>
+        <value>Estimated Tax:</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Checkout_Net_Total</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Checkout Net Total</shortDescription>
+        <value>Net Total</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Checkout_Promotions</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Checkout Promotions</shortDescription>
+        <value>Promotions</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Checkout_Subtotal</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Checkout Subtotal</shortDescription>
+        <value>Subtotal:</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Checkout_Summary_Header</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Checkout Summary Header</shortDescription>
+        <value>Checkout Summary</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Checkout_Total</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Checkout Total</shortDescription>
+        <value>Total:</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_City</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC City</shortDescription>
+        <value>City</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_City_Not_Valid</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC City Not Valid</shortDescription>
+        <value>City is not valid</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Company_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Company Name</shortDescription>
+        <value>Company Name</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Company_Name_Not_Valid</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Company Name Not Valid</shortDescription>
+        <value>Company Name is not valid</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Country</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Country</shortDescription>
+        <value>Country</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Country_Not_Valid</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Country Not Valid</shortDescription>
+        <value>Country is not valid</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Delivery_Instructions</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Delivery Instructions</shortDescription>
+        <value>Delivery Instructions</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Delivery_Instructions_Placeholder</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Delivery Instructions Placeholder</shortDescription>
+        <value>Cross street, security code, etc...</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Delivery_Method_Not_Selected</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Delivery Method Not Selected</shortDescription>
+        <value>Delivery method not selected</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Delivery_Method_Section_Header</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Delivery Method Section Header</shortDescription>
+        <value>Delivery Method (Estimates are in business days)</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Enter_PO_Number</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Enter PO Number</shortDescription>
+        <value>Enter PO Number</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Next_Button</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Next Button</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Payment_Credit_Card_Option</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Payment Credit Card Option</shortDescription>
+        <value>Credit Card</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Payment_Method_Header</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Payment Method Header</shortDescription>
+        <value>Payment Method</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Payment_PO_Option</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Payment PO Option</shortDescription>
+        <value>Purchase Order</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Please_Wait</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Please Wait</shortDescription>
+        <value>Please wait...</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Postal_Code</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Postal Code</shortDescription>
+        <value>Postal Code</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Postal_Code_Not_Valid</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Postal Code Not Valid</shortDescription>
+        <value>Postal code is not valid</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Processing_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Processing Error</shortDescription>
+        <value>Processing Error</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Requested_Date</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Requested Date</shortDescription>
+        <value>Requested Delivery Date</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Requested_Date_Placeholder</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Requested Date Placeholder</shortDescription>
+        <value>Select your desired delivery date...</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Required_Information_Missing</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Required Information Missing</shortDescription>
+        <value>Required information missing</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Save</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Ship_To_Address_book_option</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Ship To Address book option</shortDescription>
+        <value>Address Book</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Ship_To_Address_not_defined</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Ship To Address not defined</shortDescription>
+        <value>Ship to address not defined for account</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Ship_To_Enter_Address_Button</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Ship To Enter Address Button</shortDescription>
+        <value>Enter Address</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Ship_To_Enter_Required_Fields</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Ship To Enter Required Fields</shortDescription>
+        <value>Please provide a value in all required fields</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Ship_To_Manual_Entry_option</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Ship To Manual Entry option</shortDescription>
+        <value>Manual Entry</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Ship_To_Section_Header</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Ship To Section Header</shortDescription>
+        <value>Ship To</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Ship_To_Select_Address</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Ship To Select Address</shortDescription>
+        <value>Please select an address</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_State_Province</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC State Province</shortDescription>
+        <value>State/Province</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_State_Province_Not_Valid</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC State Province Not Valid</shortDescription>
+        <value>State/Province is not valid</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Street_Address</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Street Address</shortDescription>
+        <value>Street Address</value>
+    </labels>
+    <labels>
+        <fullName>B2B_SPC_Street_Address_Not_Valid</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B SPC Street Address Not Valid</shortDescription>
+        <value>Street address is not valid</value>
+    </labels>
+    <labels>
+        <fullName>CM_Container_MenuItems_ChannelLabel_3mi3m0000008OIH_1266404</fullName>
+        <categories>ChannelMenu</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CM_Container_MenuItems_ChannelLabel_3mi3m0000008OIH_1266404</shortDescription>
+        <value>SMS</value>
+    </labels>
+    <labels>
+        <fullName>CM_Container_MenuItems_ChannelLabel_3mi3m0000008OII_2376645</fullName>
+        <categories>ChannelMenu</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CM_Container_MenuItems_ChannelLabel_3mi3m0000008OII_2376645</shortDescription>
+        <value>WhatsApp</value>
+    </labels>
+    <labels>
+        <fullName>CM_Container_MenuItems_ChannelLabel_3mi3m0000008OIK_7666872</fullName>
+        <categories>ChannelMenu</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CM_Container_MenuItems_ChannelLabel_3mi3m0000008OIK_7666872</shortDescription>
+        <value>Facebook</value>
+    </labels>
+    <labels>
+        <fullName>CM_Container_MenuItems_ChannelLabel_3mi3m0000008OIL_1897634</fullName>
+        <categories>ChannelMenu</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CM_Container_MenuItems_ChannelLabel_3mi3m0000008OIL_1897634</shortDescription>
+        <value>WeChat</value>
+    </labels>
+    <labels>
+        <fullName>FINS_Service_Actions</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Service Actions</shortDescription>
+        <value>Service Actions</value>
+    </labels>
+    <labels>
+        <fullName>SDO_Commerce_DFP_Complete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DFP Complete</shortDescription>
+        <value>Complete</value>
+    </labels>
+    <labels>
+        <fullName>SDO_Commerce_DFP_Current</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DFP Current</shortDescription>
+        <value>Current</value>
+    </labels>
+    <labels>
+        <fullName>SDO_Commerce_DFP_Upcoming</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DFP Upcoming</shortDescription>
+        <value>Upcoming</value>
+    </labels>
+    <labels>
+        <fullName>Task_Owner_CPO_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task Owner CPO Id</shortDescription>
+        <value>005Hn00000IhBxfIAF</value>
+    </labels>
+    <labels>
+        <fullName>Task_Owner_RM_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task Owner RM Id</shortDescription>
+        <value>005Hn00000Igq2DIAR</value>
+    </labels>
+    <labels>
+        <fullName>Twitter_Widget_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Twitter Widget Id</shortDescription>
+        <value>606770178664333312</value>
+    </labels>
+    <labels>
+        <fullName>WorkOrderKnowledge_AttachArticle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WorkOrderKnowledge_AttachArticle</shortDescription>
+        <value>Attach article</value>
+    </labels>
+    <labels>
+        <fullName>WorkOrderKnowledge_BadInput</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WorkOrderKnowledge_BadInput</shortDescription>
+        <value>Your entry must be at least 3 characters</value>
+    </labels>
+    <labels>
+        <fullName>WorkOrderKnowledge_DetachArticle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WorkOrderKnowledge_DetachArticle</shortDescription>
+        <value>Detach article</value>
+    </labels>
+    <labels>
+        <fullName>WorkOrderKnowledge_LastPublished</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WorkOrderKnowledge_LastPublished</shortDescription>
+        <value>Last Published</value>
+    </labels>
+    <labels>
+        <fullName>WorkOrderKnowledge_NoArticle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WorkOrderKnowledge_NoArticle</shortDescription>
+        <value>No Article</value>
+    </labels>
+    <labels>
+        <fullName>WorkOrderKnowledge_Search</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WorkOrderKnowledge_Search</shortDescription>
+        <value>Search Articles</value>
+    </labels>
+    <labels>
+        <fullName>WorkOrderKnowledge_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WorkOrderKnowledge_Title</shortDescription>
+        <value>Knowledge Articles</value>
+    </labels>
+    <labels>
+        <fullName>xDO_Tool_Tracking_Event_Version</fullName>
+        <categories>xDO Tool - Tracking Event</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>xDO Tool Tracking Event Version</shortDescription>
+        <value>Summer 24 - v1.1.0</value>
+    </labels>
+</CustomLabels>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Layout__c</fullName>
+    <externalId>false</externalId>
+    <label>Layout</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Image Left</fullName>
+                <default>false</default>
+                <label>Image Left</label>
+            </value>
+            <value>
+                <fullName>Image Right</fullName>
+                <default>false</default>
+                <label>Image Right</label>
+            </value>
+            <value>
+                <fullName>Image Only</fullName>
+                <default>false</default>
+                <label>Image Only</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

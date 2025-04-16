@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FINS_CIB_Product_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Advanced Execution Services</fullName>
+                <default>false</default>
+                <label>Advanced Execution Services</label>
+            </value>
+            <value>
+                <fullName>Convertibles</fullName>
+                <default>false</default>
+                <label>Convertibles</label>
+            </value>
+            <value>
+                <fullName>Corporate Access</fullName>
+                <default>false</default>
+                <label>Corporate Access</label>
+            </value>
+            <value>
+                <fullName>Corporate Insights</fullName>
+                <default>false</default>
+                <label>Corporate Insights</label>
+            </value>
+            <value>
+                <fullName>Credit Default Swaps</fullName>
+                <default>false</default>
+                <label>Credit Default Swaps</label>
+            </value>
+            <value>
+                <fullName>Emerging Markets</fullName>
+                <default>false</default>
+                <label>Emerging Markets</label>
+            </value>
+            <value>
+                <fullName>Equities</fullName>
+                <default>false</default>
+                <label>Equities</label>
+            </value>
+            <value>
+                <fullName>Equity Capital Markets</fullName>
+                <default>false</default>
+                <label>Equity Capital Markets</label>
+            </value>
+            <value>
+                <fullName>Equity Derivatives</fullName>
+                <default>false</default>
+                <label>Equity Derivatives</label>
+            </value>
+            <value>
+                <fullName>Equity Swaps</fullName>
+                <default>false</default>
+                <label>Equity Swaps</label>
+            </value>
+            <value>
+                <fullName>Fixed Income</fullName>
+                <default>false</default>
+                <label>Fixed Income</label>
+            </value>
+            <value>
+                <fullName>Fixed Income Capital Raising</fullName>
+                <default>false</default>
+                <label>Fixed Income Capital Raising</label>
+            </value>
+            <value>
+                <fullName>Fund Linked Products</fullName>
+                <default>false</default>
+                <label>Fund Linked Products</label>
+            </value>
+            <value>
+                <fullName>FX Hedging Strategies</fullName>
+                <default>false</default>
+                <label>FX Hedging Strategies</label>
+            </value>
+            <value>
+                <fullName>FX NDF</fullName>
+                <default>false</default>
+                <label>FX NDF</label>
+            </value>
+            <value>
+                <fullName>FX Options</fullName>
+                <default>false</default>
+                <label>FX Options</label>
+            </value>
+            <value>
+                <fullName>FX Products</fullName>
+                <default>false</default>
+                <label>FX Products</label>
+            </value>
+            <value>
+                <fullName>Industry Experience</fullName>
+                <default>false</default>
+                <label>Industry Experience</label>
+            </value>
+            <value>
+                <fullName>Interest Rate Swaps</fullName>
+                <default>false</default>
+                <label>Interest Rate Swaps</label>
+            </value>
+            <value>
+                <fullName>Mergers &amp; Acquisitions</fullName>
+                <default>false</default>
+                <label>Mergers &amp; Acquisitions</label>
+            </value>
+            <value>
+                <fullName>Prime Services</fullName>
+                <default>false</default>
+                <label>Prime Services</label>
+            </value>
+            <value>
+                <fullName>Private Funding</fullName>
+                <default>false</default>
+                <label>Private Funding</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

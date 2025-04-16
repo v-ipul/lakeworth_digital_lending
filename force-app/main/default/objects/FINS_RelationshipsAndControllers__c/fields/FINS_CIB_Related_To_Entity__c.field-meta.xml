@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FINS_CIB_Related_To_Entity__c</fullName>
+    <externalId>false</externalId>
+    <label>Related To Entity</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Relationships and Controllers (Related To Entity)</relationshipLabel>
+    <relationshipName>Relationships_and_Controllers2</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

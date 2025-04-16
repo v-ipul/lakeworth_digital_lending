@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mockup_Coaching__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( AND(TEXT(Status__c) != &quot;1&quot;, TEXT(Mockup_Prediction__c) != &quot;1&quot;, NOT(ISBLANK(Mockup_Prediction__c))), &quot;Please have more touchpoints with this customer and have them sooner, since it&apos;s now in risk due to amount of days outstanding&quot;, &quot;&quot;)</formula>
+    <label>Mockup Coaching</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industry__c</fullName>
+    <externalId>false</externalId>
+    <label>Industry</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Lending</fullName>
+                <default>false</default>
+                <label>Lending</label>
+            </value>
+            <value>
+                <fullName>Retail Banking</fullName>
+                <default>false</default>
+                <label>Retail Banking</label>
+            </value>
+            <value>
+                <fullName>Wealth Management</fullName>
+                <default>false</default>
+                <label>Wealth Management</label>
+            </value>
+            <value>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+                <label>Insurance</label>
+            </value>
+            <value>
+                <fullName>Commercial Banking</fullName>
+                <default>false</default>
+                <label>Commercial Banking</label>
+            </value>
+            <value>
+                <fullName>Asset Management</fullName>
+                <default>false</default>
+                <label>Asset Management</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

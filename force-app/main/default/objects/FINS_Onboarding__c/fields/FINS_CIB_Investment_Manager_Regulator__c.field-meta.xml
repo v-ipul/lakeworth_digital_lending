@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FINS_CIB_Investment_Manager_Regulator__c</fullName>
+    <externalId>false</externalId>
+    <label>Investment Manager Regulator</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ACPR (French Prudential Supervision and Resolution Authority). France.</fullName>
+                <default>false</default>
+                <label>ACPR (French Prudential Supervision and Resolution Authority). France.</label>
+            </value>
+            <value>
+                <fullName>AMF (Autorite des Marches Financiers). France.</fullName>
+                <default>false</default>
+                <label>AMF (Autorite des Marches Financiers). France.</label>
+            </value>
+            <value>
+                <fullName>ADGM (Abu Dhabi Global Market). Abu Dhabi.</fullName>
+                <default>false</default>
+                <label>ADGM (Abu Dhabi Global Market). Abu Dhabi.</label>
+            </value>
+            <value>
+                <fullName>APRA (Australian Prudential Regulation Authority). Australia.</fullName>
+                <default>false</default>
+                <label>APRA (Australian Prudential Regulation Authority). Australia.</label>
+            </value>
+            <value>
+                <fullName>ASF (Financial Supervisory Authority). Romania.</fullName>
+                <default>false</default>
+                <label>ASF (Financial Supervisory Authority). Romania.</label>
+            </value>
+            <value>
+                <fullName>ASFI (Autoridad de Supervision del Sistema Financiero). Bolivia.</fullName>
+                <default>false</default>
+                <label>ASFI (Autoridad de Supervision del Sistema Financiero). Bolivia.</label>
+            </value>
+            <value>
+                <fullName>Banco de Portugal. Portugal.</fullName>
+                <default>false</default>
+                <label>Banco de Portugal. Portugal.</label>
+            </value>
+            <value>
+                <fullName>Bank of Greece. Greece</fullName>
+                <default>false</default>
+                <label>Bank of Greece. Greece</label>
+            </value>
+            <value>
+                <fullName>Bank of Italy. Italy</fullName>
+                <default>false</default>
+                <label>Bank of Italy. Italy</label>
+            </value>
+            <value>
+                <fullName>BIS (Banking Committee on Banking Supervision). Worldwide</fullName>
+                <default>false</default>
+                <label>BIS (Banking Committee on Banking Supervision). Worldwide</label>
+            </value>
+            <value>
+                <fullName>BOE (Bank of England). United Kingdom.</fullName>
+                <default>false</default>
+                <label>BOE (Bank of England). United Kingdom.</label>
+            </value>
+            <value>
+                <fullName>Central Bank of Ireland. Ireland.</fullName>
+                <default>false</default>
+                <label>Central Bank of Ireland. Ireland.</label>
+            </value>
+            <value>
+                <fullName>Central Bank of U.A.E. U.A.E.</fullName>
+                <default>false</default>
+                <label>Central Bank of U.A.E. U.A.E.</label>
+            </value>
+            <value>
+                <fullName>CFPB (Consumer Financial Protection Bureau). USA</fullName>
+                <default>false</default>
+                <label>CFPB (Consumer Financial Protection Bureau). USA</label>
+            </value>
+            <value>
+                <fullName>CFTC (U.S Commodity Futures Trading Commission). USA.</fullName>
+                <default>false</default>
+                <label>CFTC (U.S Commodity Futures Trading Commission). USA.</label>
+            </value>
+            <value>
+                <fullName>CFTC/NFA (National Futures Association). USA.</fullName>
+                <default>false</default>
+                <label>CFTC/NFA (National Futures Association). USA.</label>
+            </value>
+            <value>
+                <fullName>CIMA (Cayman Islands Monetary Authority). Cayman Islands.</fullName>
+                <default>false</default>
+                <label>CIMA (Cayman Islands Monetary Authority). Cayman Islands.</label>
+            </value>
+            <value>
+                <fullName>CMVM (Portugese Securities Market Commission). Portugal.</fullName>
+                <default>false</default>
+                <label>CMVM (Portugese Securities Market Commission). Portugal.</label>
+            </value>
+            <value>
+                <fullName>CNMV (Comision Nacional del Mercado de Valores). Spain.</fullName>
+                <default>false</default>
+                <label>CNMV (Comision Nacional del Mercado de Valores). Spain.</label>
+            </value>
+            <value>
+                <fullName>CONSOB (Commissione Nazionale per le Societa la Borsa). Italy.</fullName>
+                <default>false</default>
+                <label>CONSOB (Commissione Nazionale per le Societa la Borsa). Italy.</label>
+            </value>
+            <value>
+                <fullName>CSSF (Commission de Surveillance du Secteur Financier). Luxemburg.</fullName>
+                <default>false</default>
+                <label>CSSF (Commission de Surveillance du Secteur Financier). Luxemburg.</label>
+            </value>
+            <value>
+                <fullName>DFS (Department of Financial Services). USA.</fullName>
+                <default>false</default>
+                <label>DFS (Department of Financial Services). USA.</label>
+            </value>
+            <value>
+                <fullName>DFSA (Dubai Financial Services Authority). Dubai.</fullName>
+                <default>false</default>
+                <label>DFSA (Dubai Financial Services Authority). Dubai.</label>
+            </value>
+            <value>
+                <fullName>EBA (European Banking Authority). EU.</fullName>
+                <default>false</default>
+                <label>EBA (European Banking Authority). EU.</label>
+            </value>
+            <value>
+                <fullName>ECB (European Central Bank). EU.</fullName>
+                <default>false</default>
+                <label>ECB (European Central Bank). EU.</label>
+            </value>
+            <value>
+                <fullName>ERMC (European Risk Management Council). EU.</fullName>
+                <default>false</default>
+                <label>ERMC (European Risk Management Council). EU.</label>
+            </value>
+            <value>
+                <fullName>ESMA (European Securities and Markets Authority) EU.</fullName>
+                <default>false</default>
+                <label>ESMA (European Securities and Markets Authority) EU.</label>
+            </value>
+            <value>
+                <fullName>European Commission. EU.</fullName>
+                <default>false</default>
+                <label>European Commission. EU.</label>
+            </value>
+            <value>
+                <fullName>FCA (Financial Conduct Authority). UK.</fullName>
+                <default>false</default>
+                <label>FCA (Financial Conduct Authority). UK.</label>
+            </value>
+            <value>
+                <fullName>FCAC (Financial Consumer Agency of Canada). Canada.</fullName>
+                <default>false</default>
+                <label>FCAC (Financial Consumer Agency of Canada). Canada.</label>
+            </value>
+            <value>
+                <fullName>FDIC (Federal Deposit Insurance Corporation). USA.</fullName>
+                <default>false</default>
+                <label>FDIC (Federal Deposit Insurance Corporation). USA.</label>
+            </value>
+            <value>
+                <fullName>FFIEC (Federal Financial Institutions Examinations Council). USA.</fullName>
+                <default>false</default>
+                <label>FFIEC (Federal Financial Institutions Examinations Council). USA.</label>
+            </value>
+            <value>
+                <fullName>FFSA/BaFin (Federal Financial Supervisory Authority). Germany.</fullName>
+                <default>false</default>
+                <label>FFSA/BaFin (Federal Financial Supervisory Authority). Germany.</label>
+            </value>
+            <value>
+                <fullName>FHFA (Federal Housing Finance Agency). USA.</fullName>
+                <default>false</default>
+                <label>FHFA (Federal Housing Finance Agency). USA.</label>
+            </value>
+            <value>
+                <fullName>Financial Supervision Authority (KNF). Poland.</fullName>
+                <default>false</default>
+                <label>Financial Supervision Authority (KNF). Poland.</label>
+            </value>
+            <value>
+                <fullName>FINMA (Swiss Financial Market Supervisory Authority). Switzerland.</fullName>
+                <default>false</default>
+                <label>FINMA (Swiss Financial Market Supervisory Authority). Switzerland.</label>
+            </value>
+            <value>
+                <fullName>FINRA (Financial Industry Regulatory Authority). USA.</fullName>
+                <default>false</default>
+                <label>FINRA (Financial Industry Regulatory Authority). USA.</label>
+            </value>
+            <value>
+                <fullName>FRB (Federal Reserve Bank). USA.</fullName>
+                <default>false</default>
+                <label>FRB (Federal Reserve Bank). USA.</label>
+            </value>
+            <value>
+                <fullName>FSA (Financial Services Agency). Japan.</fullName>
+                <default>false</default>
+                <label>FSA (Financial Services Agency). Japan.</label>
+            </value>
+            <value>
+                <fullName>HKMA (Hong Kong Monetary Authority). Hong Kong.</fullName>
+                <default>false</default>
+                <label>HKMA (Hong Kong Monetary Authority). Hong Kong.</label>
+            </value>
+            <value>
+                <fullName>ICO (Information Commissioners Office). UK.</fullName>
+                <default>false</default>
+                <label>ICO (Information Commissioners Office). UK.</label>
+            </value>
+            <value>
+                <fullName>IIROC (Investment Industry Regulatory Organization of Canada). Canada.</fullName>
+                <default>false</default>
+                <label>IIROC (Investment Industry Regulatory Organization of Canada). Canada.</label>
+            </value>
+            <value>
+                <fullName>IOM (Isle of Man). Isle of Man.</fullName>
+                <default>false</default>
+                <label>IOM (Isle of Man). Isle of Man.</label>
+            </value>
+            <value>
+                <fullName>MAS (Monetary Authority of Singapore). Singapore.</fullName>
+                <default>false</default>
+                <label>MAS (Monetary Authority of Singapore). Singapore.</label>
+            </value>
+            <value>
+                <fullName>MPFA (Mandatory Provident Fund Schemes Authority). Hong Kong.</fullName>
+                <default>false</default>
+                <label>MPFA (Mandatory Provident Fund Schemes Authority). Hong Kong.</label>
+            </value>
+            <value>
+                <fullName>NAIC (National Association of Insurance Commissioners). USA.</fullName>
+                <default>false</default>
+                <label>NAIC (National Association of Insurance Commissioners). USA.</label>
+            </value>
+            <value>
+                <fullName>OCC (Comptroller of Currency). USA.</fullName>
+                <default>false</default>
+                <label>OCC (Comptroller of Currency). USA.</label>
+            </value>
+            <value>
+                <fullName>OCI (Office of the Commissioner of Insurance). Hong Kong.</fullName>
+                <default>false</default>
+                <label>OCI (Office of the Commissioner of Insurance). Hong Kong.</label>
+            </value>
+            <value>
+                <fullName>OFSI BSIF (Office of the Superintendent of Financial Institutions). Canada.</fullName>
+                <default>false</default>
+                <label>OFSI BSIF (Office of the Superintendent of Financial Institutions). Canada.</label>
+            </value>
+            <value>
+                <fullName>OROC (Ordem dos Revisores Oficias de Contas). Portugal.</fullName>
+                <default>false</default>
+                <label>OROC (Ordem dos Revisores Oficias de Contas). Portugal.</label>
+            </value>
+            <value>
+                <fullName>OSC (Ontario Securities Commission). Canada.</fullName>
+                <default>false</default>
+                <label>OSC (Ontario Securities Commission). Canada.</label>
+            </value>
+            <value>
+                <fullName>PRA (Prudential Regulation Authority). UK.</fullName>
+                <default>false</default>
+                <label>PRA (Prudential Regulation Authority). UK.</label>
+            </value>
+            <value>
+                <fullName>RBI (Reserve Bank of India). India.</fullName>
+                <default>false</default>
+                <label>RBI (Reserve Bank of India). India.</label>
+            </value>
+            <value>
+                <fullName>SCA (Securities &amp; Commodities Authority). U.A.E.</fullName>
+                <default>false</default>
+                <label>SCA (Securities &amp; Commodities Authority). U.A.E.</label>
+            </value>
+            <value>
+                <fullName>SEBI (Securities and Exchange Board of India). India.</fullName>
+                <default>false</default>
+                <label>SEBI (Securities and Exchange Board of India). India.</label>
+            </value>
+            <value>
+                <fullName>SEC (Securities Exchange Commission). USA.</fullName>
+                <default>false</default>
+                <label>SEC (Securities Exchange Commission). USA.</label>
+            </value>
+            <value>
+                <fullName>SFC (Securities and Futures Commission). Hong Kong.</fullName>
+                <default>false</default>
+                <label>SFC (Securities and Futures Commission). Hong Kong.</label>
+            </value>
+            <value>
+                <fullName>South African Reserve Bank. South Africa.</fullName>
+                <default>false</default>
+                <label>South African Reserve Bank. South Africa.</label>
+            </value>
+            <value>
+                <fullName>SSM (Single Supervisory Mechanism). EU.</fullName>
+                <default>false</default>
+                <label>SSM (Single Supervisory Mechanism). EU.</label>
+            </value>
+            <value>
+                <fullName>UKLA (UK Listing Authority). UK.</fullName>
+                <default>false</default>
+                <label>UKLA (UK Listing Authority). UK.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

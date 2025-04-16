@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Staffing_Queue</fullName>
+    <columns>NAME</columns>
+    <columns>FINS_Financial_Deal__c</columns>
+    <columns>FINS_Role__c</columns>
+    <columns>FINS_Resource_Region__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>FINS_Actual_Amount_Remaining__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Staffing Queue</label>
+</ListView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call_Scripts</fullName>
+    <columns>NAME</columns>
+    <columns>Template__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Doc_Type__c</field>
+        <operation>contains</operation>
+        <value>Call Scripts</value>
+    </filters>
+    <label>Call Scripts</label>
+</ListView>

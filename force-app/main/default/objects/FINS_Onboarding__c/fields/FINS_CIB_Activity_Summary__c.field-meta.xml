@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FINS_CIB_Activity_Summary__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( TEXT(FINS_CIB_Status__c) &lt;&gt; &quot;Completed&quot; &amp;&amp; FINS_CIB_Overdue_Tasks__c &gt; 0, &quot;Delayed&quot;,
+IF( TEXT(FINS_CIB_Status__c) &lt;&gt; &quot;Completed&quot; &amp;&amp; FINS_CIB_Overdue_Tasks__c = 0, &quot;On Track&quot;,
+IF( TEXT(FINS_CIB_Status__c) = &quot;Completed&quot; &amp;&amp; FINS_CIB_Days_Delayed__c = 0, &quot;Completed: On-Time&quot;,
+IF( TEXT(FINS_CIB_Status__c) = &quot;Completed&quot; &amp;&amp; FINS_CIB_Days_Delayed__c &gt; 0, &quot;Completed: Delayed by&quot; &amp;&quot; &quot;&amp; Text( FINS_CIB_Days_Delayed__c ) &amp; &quot; Days&quot;, &quot;Something Went Wrong&quot;))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Activity Summary</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

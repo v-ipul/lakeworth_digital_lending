@@ -1,0 +1,1351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FINS_CIB_NAIC_Code__c</fullName>
+    <externalId>false</externalId>
+    <label>NAIC Code</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ACCOMMODATION, FOOD SERVICES, &amp; DRINKING PLACES</fullName>
+                <default>false</default>
+                <label>ACCOMMODATION, FOOD SERVICES, &amp; DRINKING PLACES</label>
+            </value>
+            <value>
+                <fullName>Accommodation</fullName>
+                <default>false</default>
+                <label>Accommodation</label>
+            </value>
+            <value>
+                <fullName>721310 Rooming &amp; boarding houses</fullName>
+                <default>false</default>
+                <label>721310 Rooming &amp; boarding houses</label>
+            </value>
+            <value>
+                <fullName>721211 RV (recreational vehicle) parks &amp; recreational camps</fullName>
+                <default>false</default>
+                <label>721211 RV (recreational vehicle) parks &amp; recreational camps</label>
+            </value>
+            <value>
+                <fullName>721110 Hotels &amp; motels</fullName>
+                <default>false</default>
+                <label>721110 Hotels &amp; motels</label>
+            </value>
+            <value>
+                <fullName>721191 Bed &amp; breakfast, inns</fullName>
+                <default>false</default>
+                <label>721191 Bed &amp; breakfast, inns</label>
+            </value>
+            <value>
+                <fullName>Food Services &amp; Drinking Places</fullName>
+                <default>false</default>
+                <label>Food Services &amp; Drinking Places</label>
+            </value>
+            <value>
+                <fullName>722514 Cafeterias &amp; buffets</fullName>
+                <default>false</default>
+                <label>722514 Cafeterias &amp; buffets</label>
+            </value>
+            <value>
+                <fullName>722410 Drinking places (alcoholic beverages)</fullName>
+                <default>false</default>
+                <label>722410 Drinking places (alcoholic beverages)</label>
+            </value>
+            <value>
+                <fullName>722511 Full-service restaurants</fullName>
+                <default>false</default>
+                <label>722511 Full-service restaurants</label>
+            </value>
+            <value>
+                <fullName>722513 Limited-service restaurants</fullName>
+                <default>false</default>
+                <label>722513 Limited-service restaurants</label>
+            </value>
+            <value>
+                <fullName>722515 Snack &amp; non-alcoholic beverage bars</fullName>
+                <default>false</default>
+                <label>722515 Snack &amp; non-alcoholic beverage bars</label>
+            </value>
+            <value>
+                <fullName>722310 Food service contractors</fullName>
+                <default>false</default>
+                <label>722310 Food service contractors</label>
+            </value>
+            <value>
+                <fullName>722320 Caterers</fullName>
+                <default>false</default>
+                <label>722320 Caterers</label>
+            </value>
+            <value>
+                <fullName>ADMINISTRATIVE &amp; SUPPORT AND WASTE MANAGEMENT &amp; REMEDIATION SERVICES</fullName>
+                <default>false</default>
+                <label>ADMINISTRATIVE &amp; SUPPORT AND WASTE MANAGEMENT &amp; REMEDIATION SERVICES</label>
+            </value>
+            <value>
+                <fullName>Administrative &amp; Support Services</fullName>
+                <default>false</default>
+                <label>Administrative &amp; Support Services</label>
+            </value>
+            <value>
+                <fullName>561439 Business service centers (including private mail centers &amp; copy shops)</fullName>
+                <default>false</default>
+                <label>561439 Business service centers (including private mail centers &amp; copy shops)</label>
+            </value>
+            <value>
+                <fullName>561740 Carpet &amp; upholstery cleaning services</fullName>
+                <default>false</default>
+                <label>561740 Carpet &amp; upholstery cleaning services</label>
+            </value>
+            <value>
+                <fullName>561440 Collection agencies</fullName>
+                <default>false</default>
+                <label>561440 Collection agencies</label>
+            </value>
+            <value>
+                <fullName>561450 Credit bureaus</fullName>
+                <default>false</default>
+                <label>561450 Credit bureaus</label>
+            </value>
+            <value>
+                <fullName>561410 Document preparation services</fullName>
+                <default>false</default>
+                <label>561410 Document preparation services</label>
+            </value>
+            <value>
+                <fullName>561320 Employment services</fullName>
+                <default>false</default>
+                <label>561320 Employment services</label>
+            </value>
+            <value>
+                <fullName>561710 Exterminating &amp; pest control services</fullName>
+                <default>false</default>
+                <label>561710 Exterminating &amp; pest control services</label>
+            </value>
+            <value>
+                <fullName>561210 Facilities support (mngt) services</fullName>
+                <default>false</default>
+                <label>561210 Facilities support (mngt) services</label>
+            </value>
+            <value>
+                <fullName>561611 Private investigation services</fullName>
+                <default>false</default>
+                <label>561611 Private investigation services</label>
+            </value>
+            <value>
+                <fullName>561612 Security services</fullName>
+                <default>false</default>
+                <label>561612 Security services</label>
+            </value>
+            <value>
+                <fullName>561720 Janitorial services</fullName>
+                <default>false</default>
+                <label>561720 Janitorial services</label>
+            </value>
+            <value>
+                <fullName>561730 Landscaping services</fullName>
+                <default>false</default>
+                <label>561730 Landscaping services</label>
+            </value>
+            <value>
+                <fullName>561110 Office administrative services</fullName>
+                <default>false</default>
+                <label>561110 Office administrative services</label>
+            </value>
+            <value>
+                <fullName>561421 Telephone answering services</fullName>
+                <default>false</default>
+                <label>561421 Telephone answering services</label>
+            </value>
+            <value>
+                <fullName>561422 Telemarketing bureaus</fullName>
+                <default>false</default>
+                <label>561422 Telemarketing bureaus</label>
+            </value>
+            <value>
+                <fullName>561510 Travel agencies</fullName>
+                <default>false</default>
+                <label>561510 Travel agencies</label>
+            </value>
+            <value>
+                <fullName>561491 Repossession services</fullName>
+                <default>false</default>
+                <label>561491 Repossession services</label>
+            </value>
+            <value>
+                <fullName>561492 Court reporting</fullName>
+                <default>false</default>
+                <label>561492 Court reporting</label>
+            </value>
+            <value>
+                <fullName>561790 Other services to buildings &amp; dwellings</fullName>
+                <default>false</default>
+                <label>561790 Other services to buildings &amp; dwellings</label>
+            </value>
+            <value>
+                <fullName>561990 Other support services (including packaging &amp; labeling services, &amp; convention &amp; trade show organizers)</fullName>
+                <default>false</default>
+                <label>561990 Other support services (including packaging &amp; labeling services, &amp; convention &amp; trade show organizers)</label>
+            </value>
+            <value>
+                <fullName>Waste Management &amp; Remediation Services</fullName>
+                <default>false</default>
+                <label>Waste Management &amp; Remediation Services</label>
+            </value>
+            <value>
+                <fullName>562111 Solid waste collection</fullName>
+                <default>false</default>
+                <label>562111 Solid waste collection</label>
+            </value>
+            <value>
+                <fullName>562112 Hazardous waste collection</fullName>
+                <default>false</default>
+                <label>562112 Hazardous waste collection</label>
+            </value>
+            <value>
+                <fullName>562910 Remediation services</fullName>
+                <default>false</default>
+                <label>562910 Remediation services</label>
+            </value>
+            <value>
+                <fullName>562991 Septic tank and related services</fullName>
+                <default>false</default>
+                <label>562991 Septic tank and related services</label>
+            </value>
+            <value>
+                <fullName>562998 All other miscellaneous waste management services</fullName>
+                <default>false</default>
+                <label>562998 All other miscellaneous waste management services</label>
+            </value>
+            <value>
+                <fullName>AGRICULTURE, FORESTRY, HUNTING,&amp; FISHING</fullName>
+                <default>false</default>
+                <label>AGRICULTURE, FORESTRY, HUNTING,&amp; FISHING</label>
+            </value>
+            <value>
+                <fullName>115210 Breeding, animal, services</fullName>
+                <default>false</default>
+                <label>115210 Breeding, animal, services</label>
+            </value>
+            <value>
+                <fullName>336611 Fishing boat, commercial, building</fullName>
+                <default>false</default>
+                <label>336611 Fishing boat, commercial, building</label>
+            </value>
+            <value>
+                <fullName>115310 Forestry</fullName>
+                <default>false</default>
+                <label>115310 Forestry</label>
+            </value>
+            <value>
+                <fullName>Support Activities for Agriculture &amp; Forestry</fullName>
+                <default>false</default>
+                <label>Support Activities for Agriculture &amp; Forestry</label>
+            </value>
+            <value>
+                <fullName>115210 Support activities for animal production (including farriers)</fullName>
+                <default>false</default>
+                <label>115210 Support activities for animal production (including farriers)</label>
+            </value>
+            <value>
+                <fullName>115310 Support activities for forestry</fullName>
+                <default>false</default>
+                <label>115310 Support activities for forestry</label>
+            </value>
+            <value>
+                <fullName>ARTS, ENTERTAINMENT, &amp; RECREATION</fullName>
+                <default>false</default>
+                <label>ARTS, ENTERTAINMENT, &amp; RECREATION</label>
+            </value>
+            <value>
+                <fullName>Amusement, Gambling, &amp; Recreation Industries</fullName>
+                <default>false</default>
+                <label>Amusement, Gambling, &amp; Recreation Industries</label>
+            </value>
+            <value>
+                <fullName>713110 Amusement parks</fullName>
+                <default>false</default>
+                <label>713110 Amusement parks</label>
+            </value>
+            <value>
+                <fullName>713120 Arcades, amusement</fullName>
+                <default>false</default>
+                <label>713120 Arcades, amusement</label>
+            </value>
+            <value>
+                <fullName>713120 Gambling industries</fullName>
+                <default>false</default>
+                <label>713120 Gambling industries</label>
+            </value>
+            <value>
+                <fullName>713910 Golf courses</fullName>
+                <default>false</default>
+                <label>713910 Golf courses</label>
+            </value>
+            <value>
+                <fullName>713920 Skiing facilities</fullName>
+                <default>false</default>
+                <label>713920 Skiing facilities</label>
+            </value>
+            <value>
+                <fullName>713930 Marinas</fullName>
+                <default>false</default>
+                <label>713930 Marinas</label>
+            </value>
+            <value>
+                <fullName>713940 Fitness centers &amp; skating rinks</fullName>
+                <default>false</default>
+                <label>713940 Fitness centers &amp; skating rinks</label>
+            </value>
+            <value>
+                <fullName>713950 Bowling centers</fullName>
+                <default>false</default>
+                <label>713950 Bowling centers</label>
+            </value>
+            <value>
+                <fullName>713990 Miniature golf courses</fullName>
+                <default>false</default>
+                <label>713990 Miniature golf courses</label>
+            </value>
+            <value>
+                <fullName>Museums, Historical Sites, &amp; Similar Institutions</fullName>
+                <default>false</default>
+                <label>Museums, Historical Sites, &amp; Similar Institutions</label>
+            </value>
+            <value>
+                <fullName>712110 Museums</fullName>
+                <default>false</default>
+                <label>712110 Museums</label>
+            </value>
+            <value>
+                <fullName>712120 Historical sites</fullName>
+                <default>false</default>
+                <label>712120 Historical sites</label>
+            </value>
+            <value>
+                <fullName>Performing Arts, Spectator Sports, &amp; Related Industries</fullName>
+                <default>false</default>
+                <label>Performing Arts, Spectator Sports, &amp; Related Industries</label>
+            </value>
+            <value>
+                <fullName>711410 Agents &amp; managers for artists, athletes, entertainers, &amp; other public figures</fullName>
+                <default>false</default>
+                <label>711410 Agents &amp; managers for artists, athletes, entertainers, &amp; other public figures</label>
+            </value>
+            <value>
+                <fullName>711510 Independent artists, writers, &amp; performers</fullName>
+                <default>false</default>
+                <label>711510 Independent artists, writers, &amp; performers</label>
+            </value>
+            <value>
+                <fullName>711310 Performing arts companies</fullName>
+                <default>false</default>
+                <label>711310 Performing arts companies</label>
+            </value>
+            <value>
+                <fullName>711310 Promoters of performing arts, sports, &amp; similar events</fullName>
+                <default>false</default>
+                <label>711310 Promoters of performing arts, sports, &amp; similar events</label>
+            </value>
+            <value>
+                <fullName>711211 Spectator sports (including professional sports clubs)</fullName>
+                <default>false</default>
+                <label>711211 Spectator sports (including professional sports clubs)</label>
+            </value>
+            <value>
+                <fullName>CONSTRUCTION OF BUILDINGS</fullName>
+                <default>false</default>
+                <label>CONSTRUCTION OF BUILDINGS</label>
+            </value>
+            <value>
+                <fullName>236115 New single-family housing construction (except for-sale builders)</fullName>
+                <default>false</default>
+                <label>236115 New single-family housing construction (except for-sale builders)</label>
+            </value>
+            <value>
+                <fullName>236116 New multifamily housing construction (except for-sale builders)</fullName>
+                <default>false</default>
+                <label>236116 New multifamily housing construction (except for-sale builders)</label>
+            </value>
+            <value>
+                <fullName>236117 New housing for-sale builders</fullName>
+                <default>false</default>
+                <label>236117 New housing for-sale builders</label>
+            </value>
+            <value>
+                <fullName>236118 Residential remodeler</fullName>
+                <default>false</default>
+                <label>236118 Residential remodeler</label>
+            </value>
+            <value>
+                <fullName>Heavy and Civil Engineering Construction</fullName>
+                <default>false</default>
+                <label>Heavy and Civil Engineering Construction</label>
+            </value>
+            <value>
+                <fullName>237310 Highway, street, &amp; bridge construction</fullName>
+                <default>false</default>
+                <label>237310 Highway, street, &amp; bridge construction</label>
+            </value>
+            <value>
+                <fullName>237210 Land subdivision</fullName>
+                <default>false</default>
+                <label>237210 Land subdivision</label>
+            </value>
+            <value>
+                <fullName>237110 Water and sewer line and related structures construction</fullName>
+                <default>false</default>
+                <label>237110 Water and sewer line and related structures construction</label>
+            </value>
+            <value>
+                <fullName>237120 Oil and gas pipeline and related structures construction</fullName>
+                <default>false</default>
+                <label>237120 Oil and gas pipeline and related structures construction</label>
+            </value>
+            <value>
+                <fullName>237130 Power and communication line and related structures construction</fullName>
+                <default>false</default>
+                <label>237130 Power and communication line and related structures construction</label>
+            </value>
+            <value>
+                <fullName>237990 Other heavy &amp; civil engineering construction</fullName>
+                <default>false</default>
+                <label>237990 Other heavy &amp; civil engineering construction</label>
+            </value>
+            <value>
+                <fullName>Specialty Trade Contractors</fullName>
+                <default>false</default>
+                <label>Specialty Trade Contractors</label>
+            </value>
+            <value>
+                <fullName>238310 Drywall &amp; insulation contractors</fullName>
+                <default>false</default>
+                <label>238310 Drywall &amp; insulation contractors</label>
+            </value>
+            <value>
+                <fullName>238210 Electrical contractors</fullName>
+                <default>false</default>
+                <label>238210 Electrical contractors</label>
+            </value>
+            <value>
+                <fullName>238350 Finish carpentry contractors</fullName>
+                <default>false</default>
+                <label>238350 Finish carpentry contractors</label>
+            </value>
+            <value>
+                <fullName>238330 Flooring contractors</fullName>
+                <default>false</default>
+                <label>238330 Flooring contractors</label>
+            </value>
+            <value>
+                <fullName>238130 Framing carpentry contractors</fullName>
+                <default>false</default>
+                <label>238130 Framing carpentry contractors</label>
+            </value>
+            <value>
+                <fullName>238150 Glass &amp; glazing contractors</fullName>
+                <default>false</default>
+                <label>238150 Glass &amp; glazing contractors</label>
+            </value>
+            <value>
+                <fullName>238140 Masonry contractors</fullName>
+                <default>false</default>
+                <label>238140 Masonry contractors</label>
+            </value>
+            <value>
+                <fullName>238320 Painting &amp; wall covering contractors</fullName>
+                <default>false</default>
+                <label>238320 Painting &amp; wall covering contractors</label>
+            </value>
+            <value>
+                <fullName>238220 Plumbing, heating &amp; airconditioning contractors</fullName>
+                <default>false</default>
+                <label>238220 Plumbing, heating &amp; airconditioning contractors</label>
+            </value>
+            <value>
+                <fullName>238110 Poured concrete foundation &amp; structure contractors</fullName>
+                <default>false</default>
+                <label>238110 Poured concrete foundation &amp; structure contractors</label>
+            </value>
+            <value>
+                <fullName>238160 Roofing contractors</fullName>
+                <default>false</default>
+                <label>238160 Roofing contractors</label>
+            </value>
+            <value>
+                <fullName>238170 Siding contractors</fullName>
+                <default>false</default>
+                <label>238170 Siding contractors</label>
+            </value>
+            <value>
+                <fullName>238910 Site preparation contractors</fullName>
+                <default>false</default>
+                <label>238910 Site preparation contractors</label>
+            </value>
+            <value>
+                <fullName>238120 Structural steel &amp; precast concrete construction contractors</fullName>
+                <default>false</default>
+                <label>238120 Structural steel &amp; precast concrete construction contractors</label>
+            </value>
+            <value>
+                <fullName>238340 Tile &amp; terrazzo contractors</fullName>
+                <default>false</default>
+                <label>238340 Tile &amp; terrazzo contractors</label>
+            </value>
+            <value>
+                <fullName>238290 Other building equipment contractors</fullName>
+                <default>false</default>
+                <label>238290 Other building equipment contractors</label>
+            </value>
+            <value>
+                <fullName>238390 Other building finishing contractors</fullName>
+                <default>false</default>
+                <label>238390 Other building finishing contractors</label>
+            </value>
+            <value>
+                <fullName>238190 Other foundation, structure, &amp; building exterior contractors</fullName>
+                <default>false</default>
+                <label>238190 Other foundation, structure, &amp; building exterior contractors</label>
+            </value>
+            <value>
+                <fullName>238990 All other specialty trade contractors</fullName>
+                <default>false</default>
+                <label>238990 All other specialty trade contractors</label>
+            </value>
+            <value>
+                <fullName>EDUCATIONAL SERVICES</fullName>
+                <default>false</default>
+                <label>EDUCATIONAL SERVICES</label>
+            </value>
+            <value>
+                <fullName>611110 Elementary and secondary schools</fullName>
+                <default>false</default>
+                <label>611110 Elementary and secondary schools</label>
+            </value>
+            <value>
+                <fullName>611310 Colleges, universities, and professional schools</fullName>
+                <default>false</default>
+                <label>611310 Colleges, universities, and professional schools</label>
+            </value>
+            <value>
+                <fullName>611519 Other technical and trade schools</fullName>
+                <default>false</default>
+                <label>611519 Other technical and trade schools</label>
+            </value>
+            <value>
+                <fullName>FINANCE &amp; INSURANCE</fullName>
+                <default>false</default>
+                <label>FINANCE &amp; INSURANCE</label>
+            </value>
+            <value>
+                <fullName>Credit Intermediation &amp; Related Activities</fullName>
+                <default>false</default>
+                <label>Credit Intermediation &amp; Related Activities</label>
+            </value>
+            <value>
+                <fullName>522110 Commercial banking</fullName>
+                <default>false</default>
+                <label>522110 Commercial banking</label>
+            </value>
+            <value>
+                <fullName>522120 Savings institutions</fullName>
+                <default>false</default>
+                <label>522120 Savings institutions</label>
+            </value>
+            <value>
+                <fullName>522130 Credit unions</fullName>
+                <default>false</default>
+                <label>522130 Credit unions</label>
+            </value>
+            <value>
+                <fullName>522220 Sales financing</fullName>
+                <default>false</default>
+                <label>522220 Sales financing</label>
+            </value>
+            <value>
+                <fullName>522291 Consumer lending</fullName>
+                <default>false</default>
+                <label>522291 Consumer lending</label>
+            </value>
+            <value>
+                <fullName>522310 Loan brokers’ or agents’ offices (i.e., independent)</fullName>
+                <default>false</default>
+                <label>522310 Loan brokers’ or agents’ offices (i.e., independent)</label>
+            </value>
+            <value>
+                <fullName>Insurance Agents, Brokers, &amp; Related Activities</fullName>
+                <default>false</default>
+                <label>Insurance Agents, Brokers, &amp; Related Activities</label>
+            </value>
+            <value>
+                <fullName>524210 Insurance agencies &amp; brokerages</fullName>
+                <default>false</default>
+                <label>524210 Insurance agencies &amp; brokerages</label>
+            </value>
+            <value>
+                <fullName>Securities, Commodity Contracts, &amp; Other Financial Investments &amp; Related Activities</fullName>
+                <default>false</default>
+                <label>Securities, Commodity Contracts, &amp; Other Financial Investments &amp; Related Activities</label>
+            </value>
+            <value>
+                <fullName>523140 Commodity contracts brokers</fullName>
+                <default>false</default>
+                <label>523140 Commodity contracts brokers</label>
+            </value>
+            <value>
+                <fullName>523130 Commodity contracts dealers</fullName>
+                <default>false</default>
+                <label>523130 Commodity contracts dealers</label>
+            </value>
+            <value>
+                <fullName>523110 Investment banking &amp; securities dealing</fullName>
+                <default>false</default>
+                <label>523110 Investment banking &amp; securities dealing</label>
+            </value>
+            <value>
+                <fullName>523210 Securities &amp; commodity exchanges</fullName>
+                <default>false</default>
+                <label>523210 Securities &amp; commodity exchanges</label>
+            </value>
+            <value>
+                <fullName>523120 Securities brokerage</fullName>
+                <default>false</default>
+                <label>523120 Securities brokerage</label>
+            </value>
+            <value>
+                <fullName>523930 Investment advice</fullName>
+                <default>false</default>
+                <label>523930 Investment advice</label>
+            </value>
+            <value>
+                <fullName>HEALTH CARE &amp; SOCIAL ASSISTANCE</fullName>
+                <default>false</default>
+                <label>HEALTH CARE &amp; SOCIAL ASSISTANCE</label>
+            </value>
+            <value>
+                <fullName>Ambulatory Health Care Services</fullName>
+                <default>false</default>
+                <label>Ambulatory Health Care Services</label>
+            </value>
+            <value>
+                <fullName>621610 Home health care services</fullName>
+                <default>false</default>
+                <label>621610 Home health care services</label>
+            </value>
+            <value>
+                <fullName>621511 Medical laboratories</fullName>
+                <default>false</default>
+                <label>621511 Medical laboratories</label>
+            </value>
+            <value>
+                <fullName>621512 Diagnostic imaging centers</fullName>
+                <default>false</default>
+                <label>621512 Diagnostic imaging centers</label>
+            </value>
+            <value>
+                <fullName>621310 Offices of chiropractors</fullName>
+                <default>false</default>
+                <label>621310 Offices of chiropractors</label>
+            </value>
+            <value>
+                <fullName>621210 Offices of dentists</fullName>
+                <default>false</default>
+                <label>621210 Offices of dentists</label>
+            </value>
+            <value>
+                <fullName>621330 Offices of mental health practitioners (except physicians)</fullName>
+                <default>false</default>
+                <label>621330 Offices of mental health practitioners (except physicians)</label>
+            </value>
+            <value>
+                <fullName>621320 Offices of optometrists</fullName>
+                <default>false</default>
+                <label>621320 Offices of optometrists</label>
+            </value>
+            <value>
+                <fullName>621340 Offices of physical, occupational &amp; speech therapists, &amp; audiologists</fullName>
+                <default>false</default>
+                <label>621340 Offices of physical, occupational &amp; speech therapists, &amp; audiologists</label>
+            </value>
+            <value>
+                <fullName>621111 Offices of physicians (except mental health specialists)</fullName>
+                <default>false</default>
+                <label>621111 Offices of physicians (except mental health specialists)</label>
+            </value>
+            <value>
+                <fullName>621112 Offices of physicians, mental health specialists</fullName>
+                <default>false</default>
+                <label>621112 Offices of physicians, mental health specialists</label>
+            </value>
+            <value>
+                <fullName>621391 Offices of podiatrists</fullName>
+                <default>false</default>
+                <label>621391 Offices of podiatrists</label>
+            </value>
+            <value>
+                <fullName>621399 Offices of all other miscellaneous health practitioners</fullName>
+                <default>false</default>
+                <label>621399 Offices of all other miscellaneous health practitioners</label>
+            </value>
+            <value>
+                <fullName>621410 Family planning centers</fullName>
+                <default>false</default>
+                <label>621410 Family planning centers</label>
+            </value>
+            <value>
+                <fullName>621420 Outpatient mental health and substance abuse centers</fullName>
+                <default>false</default>
+                <label>621420 Outpatient mental health and substance abuse centers</label>
+            </value>
+            <value>
+                <fullName>621498 All other outpatient care centers</fullName>
+                <default>false</default>
+                <label>621498 All other outpatient care centers</label>
+            </value>
+            <value>
+                <fullName>621910 Ambulance services</fullName>
+                <default>false</default>
+                <label>621910 Ambulance services</label>
+            </value>
+            <value>
+                <fullName>621991 Blood and organ banks</fullName>
+                <default>false</default>
+                <label>621991 Blood and organ banks</label>
+            </value>
+            <value>
+                <fullName>621999 All other miscellaneous ambulatory health care services</fullName>
+                <default>false</default>
+                <label>621999 All other miscellaneous ambulatory health care services</label>
+            </value>
+            <value>
+                <fullName>Hospitals</fullName>
+                <default>false</default>
+                <label>Hospitals</label>
+            </value>
+            <value>
+                <fullName>622110 General medical and surgical hospitals</fullName>
+                <default>false</default>
+                <label>622110 General medical and surgical hospitals</label>
+            </value>
+            <value>
+                <fullName>622210 Psychiatric and substance abuse hospitals</fullName>
+                <default>false</default>
+                <label>622210 Psychiatric and substance abuse hospitals</label>
+            </value>
+            <value>
+                <fullName>622310 Specialty (except psychiatric and substance abuse) hospitals</fullName>
+                <default>false</default>
+                <label>622310 Specialty (except psychiatric and substance abuse) hospitals</label>
+            </value>
+            <value>
+                <fullName>Nursing &amp; Residential Care Facilities</fullName>
+                <default>false</default>
+                <label>Nursing &amp; Residential Care Facilities</label>
+            </value>
+            <value>
+                <fullName>623110 Nursing care facilities (skilled nursing facilities)</fullName>
+                <default>false</default>
+                <label>623110 Nursing care facilities (skilled nursing facilities)</label>
+            </value>
+            <value>
+                <fullName>623210 Residential intellectual and developmental disability facilities</fullName>
+                <default>false</default>
+                <label>623210 Residential intellectual and developmental disability facilities</label>
+            </value>
+            <value>
+                <fullName>623220 Residential mental health and substance abuse facilities</fullName>
+                <default>false</default>
+                <label>623220 Residential mental health and substance abuse facilities</label>
+            </value>
+            <value>
+                <fullName>Social Assistance (Community Food and Housing/Other Relief Services)</fullName>
+                <default>false</default>
+                <label>Social Assistance (Community Food and Housing/Other Relief Services)</label>
+            </value>
+            <value>
+                <fullName>624110 Child and youth services</fullName>
+                <default>false</default>
+                <label>624110 Child and youth services</label>
+            </value>
+            <value>
+                <fullName>624120 Services for elderly and persons with disabilities</fullName>
+                <default>false</default>
+                <label>624120 Services for elderly and persons with disabilities</label>
+            </value>
+            <value>
+                <fullName>624190 Other individual and family services</fullName>
+                <default>false</default>
+                <label>624190 Other individual and family services</label>
+            </value>
+            <value>
+                <fullName>624210 Community food services</fullName>
+                <default>false</default>
+                <label>624210 Community food services</label>
+            </value>
+            <value>
+                <fullName>624221 Temporary shelters</fullName>
+                <default>false</default>
+                <label>624221 Temporary shelters</label>
+            </value>
+            <value>
+                <fullName>624229 Other Community housing services</fullName>
+                <default>false</default>
+                <label>624229 Other Community housing services</label>
+            </value>
+            <value>
+                <fullName>624230 Emergency and other relief services</fullName>
+                <default>false</default>
+                <label>624230 Emergency and other relief services</label>
+            </value>
+            <value>
+                <fullName>624310 Vocational rehabilitation services</fullName>
+                <default>false</default>
+                <label>624310 Vocational rehabilitation services</label>
+            </value>
+            <value>
+                <fullName>624410 Child day care services</fullName>
+                <default>false</default>
+                <label>624410 Child day care services</label>
+            </value>
+            <value>
+                <fullName>INFORMATION</fullName>
+                <default>false</default>
+                <label>INFORMATION</label>
+            </value>
+            <value>
+                <fullName>511199 All other publisher</fullName>
+                <default>false</default>
+                <label>511199 All other publisher</label>
+            </value>
+            <value>
+                <fullName>Broadcasting (except Internet) &amp; Telecommunications</fullName>
+                <default>false</default>
+                <label>Broadcasting (except Internet) &amp; Telecommunications</label>
+            </value>
+            <value>
+                <fullName>515111 Radio networks</fullName>
+                <default>false</default>
+                <label>515111 Radio networks</label>
+            </value>
+            <value>
+                <fullName>515112 Radio stations</fullName>
+                <default>false</default>
+                <label>515112 Radio stations</label>
+            </value>
+            <value>
+                <fullName>515120 Television broadcasting</fullName>
+                <default>false</default>
+                <label>515120 Television broadcasting</label>
+            </value>
+            <value>
+                <fullName>517311 Wired telecommunications carriers</fullName>
+                <default>false</default>
+                <label>517311 Wired telecommunications carriers</label>
+            </value>
+            <value>
+                <fullName>517312 Wireless telecommunications carriers (except Satellite)</fullName>
+                <default>false</default>
+                <label>517312 Wireless telecommunications carriers (except Satellite)</label>
+            </value>
+            <value>
+                <fullName>517410 Satellite telecommunications</fullName>
+                <default>false</default>
+                <label>517410 Satellite telecommunications</label>
+            </value>
+            <value>
+                <fullName>517919 All other telecommunications</fullName>
+                <default>false</default>
+                <label>517919 All other telecommunications</label>
+            </value>
+            <value>
+                <fullName>Data Processing Services</fullName>
+                <default>false</default>
+                <label>Data Processing Services</label>
+            </value>
+            <value>
+                <fullName>518210 Data processing, hosting, &amp; related services</fullName>
+                <default>false</default>
+                <label>518210 Data processing, hosting, &amp; related services</label>
+            </value>
+            <value>
+                <fullName>519120 Libraries and archives</fullName>
+                <default>false</default>
+                <label>519120 Libraries and archives</label>
+            </value>
+            <value>
+                <fullName>519130 Internet publishing and broadcasting and web search portals</fullName>
+                <default>false</default>
+                <label>519130 Internet publishing and broadcasting and web search portals</label>
+            </value>
+            <value>
+                <fullName>Motion Picture &amp; Sound Recording</fullName>
+                <default>false</default>
+                <label>Motion Picture &amp; Sound Recording</label>
+            </value>
+            <value>
+                <fullName>512110 Motion picture and video production</fullName>
+                <default>false</default>
+                <label>512110 Motion picture and video production</label>
+            </value>
+            <value>
+                <fullName>512240 Sound recording studios</fullName>
+                <default>false</default>
+                <label>512240 Sound recording studios</label>
+            </value>
+            <value>
+                <fullName>MANUFACTURING</fullName>
+                <default>false</default>
+                <label>MANUFACTURING</label>
+            </value>
+            <value>
+                <fullName>315990 Apparel accessories and other apparel mfg.</fullName>
+                <default>false</default>
+                <label>315990 Apparel accessories and other apparel mfg.</label>
+            </value>
+            <value>
+                <fullName>312120 Breweries</fullName>
+                <default>false</default>
+                <label>312120 Breweries</label>
+            </value>
+            <value>
+                <fullName>312130 Wineries</fullName>
+                <default>false</default>
+                <label>312130 Wineries</label>
+            </value>
+            <value>
+                <fullName>312140 Distilleries</fullName>
+                <default>false</default>
+                <label>312140 Distilleries</label>
+            </value>
+            <value>
+                <fullName>312230 Tobacco mfg.</fullName>
+                <default>false</default>
+                <label>312230 Tobacco mfg.</label>
+            </value>
+            <value>
+                <fullName>334118 Computer terminal and other computer peripheral equipment mfg.</fullName>
+                <default>false</default>
+                <label>334118 Computer terminal and other computer peripheral equipment mfg.</label>
+            </value>
+            <value>
+                <fullName>335121 Residential electric lighting fixture mfg.</fullName>
+                <default>false</default>
+                <label>335121 Residential electric lighting fixture mfg.</label>
+            </value>
+            <value>
+                <fullName>335122 Commercial, industrial, and institutional electric lighting fixture mfg.</fullName>
+                <default>false</default>
+                <label>335122 Commercial, industrial, and institutional electric lighting fixture mfg.</label>
+            </value>
+            <value>
+                <fullName>332215 Metal kitchen cooking, utensi, cutlery,and flatware, mfg.</fullName>
+                <default>false</default>
+                <label>332215 Metal kitchen cooking, utensi, cutlery,and flatware, mfg.</label>
+            </value>
+            <value>
+                <fullName>337110 Wood kitchen cabinet and countertop mfg.</fullName>
+                <default>false</default>
+                <label>337110 Wood kitchen cabinet and countertop mfg.</label>
+            </value>
+            <value>
+                <fullName>337121 Upholstered household furniture mfg.</fullName>
+                <default>false</default>
+                <label>337121 Upholstered household furniture mfg.</label>
+            </value>
+            <value>
+                <fullName>337122 Nonupholstered wood household furniture mfg.</fullName>
+                <default>false</default>
+                <label>337122 Nonupholstered wood household furniture mfg.</label>
+            </value>
+            <value>
+                <fullName>337124 Metal household furniture mfg.</fullName>
+                <default>false</default>
+                <label>337124 Metal household furniture mfg.</label>
+            </value>
+            <value>
+                <fullName>337125 Household furniture (except wood and metal) mfg.</fullName>
+                <default>false</default>
+                <label>337125 Household furniture (except wood and metal) mfg.</label>
+            </value>
+            <value>
+                <fullName>333111 Farm machinery and equipment mfg.</fullName>
+                <default>false</default>
+                <label>333111 Farm machinery and equipment mfg.</label>
+            </value>
+            <value>
+                <fullName>333112 Lawn and garden tractor and home lawn and garden equipment mfg.</fullName>
+                <default>false</default>
+                <label>333112 Lawn and garden tractor and home lawn and garden equipment mfg.</label>
+            </value>
+            <value>
+                <fullName>333120 Construction machinery mfg.</fullName>
+                <default>false</default>
+                <label>333120 Construction machinery mfg.</label>
+            </value>
+            <value>
+                <fullName>333131 Mining machinery and equipment mfg.</fullName>
+                <default>false</default>
+                <label>333131 Mining machinery and equipment mfg.</label>
+            </value>
+            <value>
+                <fullName>333132 Oil and gas field machinery and equipment mfg.</fullName>
+                <default>false</default>
+                <label>333132 Oil and gas field machinery and equipment mfg.</label>
+            </value>
+            <value>
+                <fullName>339112 Surgical and medical instrument mfg.</fullName>
+                <default>false</default>
+                <label>339112 Surgical and medical instrument mfg.</label>
+            </value>
+            <value>
+                <fullName>339113 Surgical appliance and supplies mfg.</fullName>
+                <default>false</default>
+                <label>339113 Surgical appliance and supplies mfg.</label>
+            </value>
+            <value>
+                <fullName>339114 Dental equipment and supplies mfg.</fullName>
+                <default>false</default>
+                <label>339114 Dental equipment and supplies mfg.</label>
+            </value>
+            <value>
+                <fullName>339116 Dental Laboratories</fullName>
+                <default>false</default>
+                <label>339116 Dental Laboratories</label>
+            </value>
+            <value>
+                <fullName>322219 Other paperboard container mfg.</fullName>
+                <default>false</default>
+                <label>322219 Other paperboard container mfg.</label>
+            </value>
+            <value>
+                <fullName>322220 Paper bag and coated and treated paper mfg.</fullName>
+                <default>false</default>
+                <label>322220 Paper bag and coated and treated paper mfg.</label>
+            </value>
+            <value>
+                <fullName>322230 Stationery product mfg.</fullName>
+                <default>false</default>
+                <label>322230 Stationery product mfg.</label>
+            </value>
+            <value>
+                <fullName>322291 Sanitary paper product mfg.</fullName>
+                <default>false</default>
+                <label>322291 Sanitary paper product mfg.</label>
+            </value>
+            <value>
+                <fullName>322299 All other converted paper product mfg.</fullName>
+                <default>false</default>
+                <label>322299 All other converted paper product mfg.</label>
+            </value>
+            <value>
+                <fullName>324110 Petroleum refineries</fullName>
+                <default>false</default>
+                <label>324110 Petroleum refineries</label>
+            </value>
+            <value>
+                <fullName>324121 Asphalt paving mixture and block mfg.</fullName>
+                <default>false</default>
+                <label>324121 Asphalt paving mixture and block mfg.</label>
+            </value>
+            <value>
+                <fullName>324122 Asphalt shingle and coating materials mfg.</fullName>
+                <default>false</default>
+                <label>324122 Asphalt shingle and coating materials mfg.</label>
+            </value>
+            <value>
+                <fullName>324191 Petroleum lubricating oil and grease mfg.</fullName>
+                <default>false</default>
+                <label>324191 Petroleum lubricating oil and grease mfg.</label>
+            </value>
+            <value>
+                <fullName>324199 All other petroleum and coal products mfg.</fullName>
+                <default>false</default>
+                <label>324199 All other petroleum and coal products mfg.</label>
+            </value>
+            <value>
+                <fullName>326111 Plastics bag and pouch mfg.</fullName>
+                <default>false</default>
+                <label>326111 Plastics bag and pouch mfg.</label>
+            </value>
+            <value>
+                <fullName>326112 Plastics packaging film and sheet (including laminated) mfg.</fullName>
+                <default>false</default>
+                <label>326112 Plastics packaging film and sheet (including laminated) mfg.</label>
+            </value>
+            <value>
+                <fullName>326113 Unlaminated plastics film and sheet (except packaging) mfg.</fullName>
+                <default>false</default>
+                <label>326113 Unlaminated plastics film and sheet (except packaging) mfg.</label>
+            </value>
+            <value>
+                <fullName>326121 Unlaminated plastics profile shape mfg.</fullName>
+                <default>false</default>
+                <label>326121 Unlaminated plastics profile shape mfg.</label>
+            </value>
+            <value>
+                <fullName>326122 Plastics pipe and pipe fitting mfg.</fullName>
+                <default>false</default>
+                <label>326122 Plastics pipe and pipe fitting mfg.</label>
+            </value>
+            <value>
+                <fullName>326130 Laminated plastics plate, sheet (except packaging), and shape mfg.</fullName>
+                <default>false</default>
+                <label>326130 Laminated plastics plate, sheet (except packaging), and shape mfg.</label>
+            </value>
+            <value>
+                <fullName>326160 Plastics bottle mfg.</fullName>
+                <default>false</default>
+                <label>326160 Plastics bottle mfg.</label>
+            </value>
+            <value>
+                <fullName>326191 Plastics plumbing fixture mfg.</fullName>
+                <default>false</default>
+                <label>326191 Plastics plumbing fixture mfg.</label>
+            </value>
+            <value>
+                <fullName>326199 All other plastics product mfg.</fullName>
+                <default>false</default>
+                <label>326199 All other plastics product mfg.</label>
+            </value>
+            <value>
+                <fullName>331110 Iron and steel mills and ferroalloy mfg.</fullName>
+                <default>false</default>
+                <label>331110 Iron and steel mills and ferroalloy mfg.</label>
+            </value>
+            <value>
+                <fullName>331210 Iron and steel pipe and tube mfg. from purchased steel</fullName>
+                <default>false</default>
+                <label>331210 Iron and steel pipe and tube mfg. from purchased steel</label>
+            </value>
+            <value>
+                <fullName>331221 Rolled steel shape mfg.</fullName>
+                <default>false</default>
+                <label>331221 Rolled steel shape mfg.</label>
+            </value>
+            <value>
+                <fullName>331222 Steel wire drawing</fullName>
+                <default>false</default>
+                <label>331222 Steel wire drawing</label>
+            </value>
+            <value>
+                <fullName>331313 Alumina refining and primary aluminum production</fullName>
+                <default>false</default>
+                <label>331313 Alumina refining and primary aluminum production</label>
+            </value>
+            <value>
+                <fullName>331315 Aluminum sheet, plate, and foil mfg.</fullName>
+                <default>false</default>
+                <label>331315 Aluminum sheet, plate, and foil mfg.</label>
+            </value>
+            <value>
+                <fullName>331318 Other aluminum rolling, drawing, and extruding</fullName>
+                <default>false</default>
+                <label>331318 Other aluminum rolling, drawing, and extruding</label>
+            </value>
+            <value>
+                <fullName>331410 Nonferrous metal (except aluminum) smelting and refining</fullName>
+                <default>false</default>
+                <label>331410 Nonferrous metal (except aluminum) smelting and refining</label>
+            </value>
+            <value>
+                <fullName>331420 Copper rolling, drawing, extruding, and alloying</fullName>
+                <default>false</default>
+                <label>331420 Copper rolling, drawing, extruding, and alloying</label>
+            </value>
+            <value>
+                <fullName>331491 Nonferrous metal (except copper and aluminum) rolling, drawing, and extruding</fullName>
+                <default>false</default>
+                <label>331491 Nonferrous metal (except copper and aluminum) rolling, drawing, and extruding</label>
+            </value>
+            <value>
+                <fullName>331492 Secondary smelting, refining, and alloying of nonferrous metal (except copper and aluminum)</fullName>
+                <default>false</default>
+                <label>331492 Secondary smelting, refining, and alloying of nonferrous metal (except copper and aluminum)</label>
+            </value>
+            <value>
+                <fullName>331511 Iron foundries</fullName>
+                <default>false</default>
+                <label>331511 Iron foundries</label>
+            </value>
+            <value>
+                <fullName>331512 Steel investment foundries</fullName>
+                <default>false</default>
+                <label>331512 Steel investment foundries</label>
+            </value>
+            <value>
+                <fullName>331524 Aluminum foundries (except diecasting)</fullName>
+                <default>false</default>
+                <label>331524 Aluminum foundries (except diecasting)</label>
+            </value>
+            <value>
+                <fullName>331529 Other nonferrous metal foundries (except die-casting)</fullName>
+                <default>false</default>
+                <label>331529 Other nonferrous metal foundries (except die-casting)</label>
+            </value>
+            <value>
+                <fullName>323111 Commercial printing (except screen and books)</fullName>
+                <default>false</default>
+                <label>323111 Commercial printing (except screen and books)</label>
+            </value>
+            <value>
+                <fullName>323113 Commercial screen printing</fullName>
+                <default>false</default>
+                <label>323113 Commercial screen printing</label>
+            </value>
+            <value>
+                <fullName>323117 Books printing</fullName>
+                <default>false</default>
+                <label>323117 Books printing</label>
+            </value>
+            <value>
+                <fullName>323120 Support activities for printing</fullName>
+                <default>false</default>
+                <label>323120 Support activities for printing</label>
+            </value>
+            <value>
+                <fullName>313110 Fiber, yarn, and thread mills</fullName>
+                <default>false</default>
+                <label>313110 Fiber, yarn, and thread mills</label>
+            </value>
+            <value>
+                <fullName>313210 Broadwoven fabric mills</fullName>
+                <default>false</default>
+                <label>313210 Broadwoven fabric mills</label>
+            </value>
+            <value>
+                <fullName>313220 Narrow fabric mills and schiffli machine embroidery</fullName>
+                <default>false</default>
+                <label>313220 Narrow fabric mills and schiffli machine embroidery</label>
+            </value>
+            <value>
+                <fullName>313230 Nonwoven fabric mills</fullName>
+                <default>false</default>
+                <label>313230 Nonwoven fabric mills</label>
+            </value>
+            <value>
+                <fullName>313240 Knit fabric mills</fullName>
+                <default>false</default>
+                <label>313240 Knit fabric mills</label>
+            </value>
+            <value>
+                <fullName>313310 Textile and fabric finishing mills</fullName>
+                <default>false</default>
+                <label>313310 Textile and fabric finishing mills</label>
+            </value>
+            <value>
+                <fullName>313320 Fabric coating mills</fullName>
+                <default>false</default>
+                <label>313320 Fabric coating mills</label>
+            </value>
+            <value>
+                <fullName>314110 Carpet and rug mills</fullName>
+                <default>false</default>
+                <label>314110 Carpet and rug mills</label>
+            </value>
+            <value>
+                <fullName>314120 Curtain and linen mills</fullName>
+                <default>false</default>
+                <label>314120 Curtain and linen mills</label>
+            </value>
+            <value>
+                <fullName>314910 Textile bag and canvas mills</fullName>
+                <default>false</default>
+                <label>314910 Textile bag and canvas mills</label>
+            </value>
+            <value>
+                <fullName>314994 Rope, cordage, twine, tire cord, and tire fabric mills</fullName>
+                <default>false</default>
+                <label>314994 Rope, cordage, twine, tire cord, and tire fabric mills</label>
+            </value>
+            <value>
+                <fullName>314999 All other miscellaneous textile product mills</fullName>
+                <default>false</default>
+                <label>314999 All other miscellaneous textile product mills</label>
+            </value>
+            <value>
+                <fullName>336111 Automobile mfg.</fullName>
+                <default>false</default>
+                <label>336111 Automobile mfg.</label>
+            </value>
+            <value>
+                <fullName>336112 Light truck and utility vehicle mfg.</fullName>
+                <default>false</default>
+                <label>336112 Light truck and utility vehicle mfg.</label>
+            </value>
+            <value>
+                <fullName>336120 Heavy duty truck mfg.</fullName>
+                <default>false</default>
+                <label>336120 Heavy duty truck mfg.</label>
+            </value>
+            <value>
+                <fullName>336211 Motor vehicle body mfg.</fullName>
+                <default>false</default>
+                <label>336211 Motor vehicle body mfg.</label>
+            </value>
+            <value>
+                <fullName>336212 Truck trailer mfg.</fullName>
+                <default>false</default>
+                <label>336212 Truck trailer mfg.</label>
+            </value>
+            <value>
+                <fullName>336213 Motor home mfg.</fullName>
+                <default>false</default>
+                <label>336213 Motor home mfg.</label>
+            </value>
+            <value>
+                <fullName>336214 Travel trailer and camper mfg.</fullName>
+                <default>false</default>
+                <label>336214 Travel trailer and camper mfg.</label>
+            </value>
+            <value>
+                <fullName>336310 Motor vehicle gasoline engine and engine parts mfg.</fullName>
+                <default>false</default>
+                <label>336310 Motor vehicle gasoline engine and engine parts mfg.</label>
+            </value>
+            <value>
+                <fullName>336320 Motor vehicle electrical and electronic equipment mfg.</fullName>
+                <default>false</default>
+                <label>336320 Motor vehicle electrical and electronic equipment mfg.</label>
+            </value>
+            <value>
+                <fullName>336330 Motor vehicle steering and suspension components (except spring) mfg.</fullName>
+                <default>false</default>
+                <label>336330 Motor vehicle steering and suspension components (except spring) mfg.</label>
+            </value>
+            <value>
+                <fullName>336340 Motor vehicle brake system mfg.</fullName>
+                <default>false</default>
+                <label>336340 Motor vehicle brake system mfg.</label>
+            </value>
+            <value>
+                <fullName>336350 Motor vehicle transmission and power train parts mfg.</fullName>
+                <default>false</default>
+                <label>336350 Motor vehicle transmission and power train parts mfg.</label>
+            </value>
+            <value>
+                <fullName>336360 Motor vehicle seating and interior trim mfg.</fullName>
+                <default>false</default>
+                <label>336360 Motor vehicle seating and interior trim mfg.</label>
+            </value>
+            <value>
+                <fullName>336370 Motor vehicle metal stamping</fullName>
+                <default>false</default>
+                <label>336370 Motor vehicle metal stamping</label>
+            </value>
+            <value>
+                <fullName>336390 Other motor vehicle parts mfg.</fullName>
+                <default>false</default>
+                <label>336390 Other motor vehicle parts mfg.</label>
+            </value>
+            <value>
+                <fullName>336411 Aircraft mfg.</fullName>
+                <default>false</default>
+                <label>336411 Aircraft mfg.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows custom permissions for Agentforce Agent : Summary_Agent&apos;s agent user : summary_agent@00dhn000003ujuj.ext.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Summary_Agent Permissions</label>
+    <license>Einstein Agent</license>
+    <tabSettings>
+        <tab>standard-SemanticModel</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+</PermissionSet>

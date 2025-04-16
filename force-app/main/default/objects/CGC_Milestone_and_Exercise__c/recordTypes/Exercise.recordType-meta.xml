@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exercise</fullName>
+    <active>true</active>
+    <label>Exercise</label>
+    <picklistValues>
+        <picklist>FINS_Q_Branch_Demo_Reference__c</picklist>
+        <values>
+            <fullName>CIB - CapMarkets - Onboarding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial Banking - Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial Banking - Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial Banking - Treasury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail Banking - Branch Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail Banking - Starter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wealth</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Audio Recording</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Document</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lesson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Link</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scheduled Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trailhead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Video</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FINS_CommercialBanking_Associated_Branch__c</fullName>
+    <externalId>false</externalId>
+    <label>Associated Branch</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New York Branch</fullName>
+                <default>false</default>
+                <label>New York Branch</label>
+            </value>
+            <value>
+                <fullName>Los Angeles Branch</fullName>
+                <default>false</default>
+                <label>Los Angeles Branch</label>
+            </value>
+            <value>
+                <fullName>Washington Branch</fullName>
+                <default>false</default>
+                <label>Washington Branch</label>
+            </value>
+            <value>
+                <fullName>London Branch</fullName>
+                <default>false</default>
+                <label>London Branch</label>
+            </value>
+            <value>
+                <fullName>Singapore Branch</fullName>
+                <default>false</default>
+                <label>Singapore Branch</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FINS_CIB_Bank_Account_Purpose__c</fullName>
+    <externalId>false</externalId>
+    <label>Bank Account Purpose</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Custodian</fullName>
+                <default>false</default>
+                <label>Custodian</label>
+            </value>
+            <value>
+                <fullName>Withdrawals</fullName>
+                <default>false</default>
+                <label>Withdrawals</label>
+            </value>
+            <value>
+                <fullName>Deposits</fullName>
+                <default>false</default>
+                <label>Deposits</label>
+            </value>
+            <value>
+                <fullName>Settlement</fullName>
+                <default>false</default>
+                <label>Settlement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

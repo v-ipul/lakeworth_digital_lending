@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mockup_Unpaid_Fee_Insights</fullName>
+    <columns>NAME</columns>
+    <columns>Name__c</columns>
+    <columns>Running_Amount_Due__c</columns>
+    <columns>Type__c</columns>
+    <columns>Mockup_Prediction__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Paid_off__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Mockup Unpaid Fee Insights</label>
+</ListView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Required_Client_Docs</fullName>
+    <columns>NAME</columns>
+    <columns>Last_Update__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Doc_Type__c</field>
+        <operation>contains</operation>
+        <value>Client Doc</value>
+    </filters>
+    <label>Client Documents</label>
+</ListView>

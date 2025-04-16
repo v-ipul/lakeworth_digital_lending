@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FINS_CIB_Dodd_Frank_US_Person__c</fullName>
+    <externalId>false</externalId>
+    <label>Dodd Frank US Person Classification</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Natural Person resident of the US</fullName>
+                <default>false</default>
+                <label>Natural Person resident of the US</label>
+            </value>
+            <value>
+                <fullName>Estate of descendent who was a resident of the US at their time of death</fullName>
+                <default>false</default>
+                <label>Estate of descendent who was a resident of the US at their time of death</label>
+            </value>
+            <value>
+                <fullName>Any legal entity with its principal place of business in the United States</fullName>
+                <default>false</default>
+                <label>Any legal entity with its principal place of business in the United States</label>
+            </value>
+            <value>
+                <fullName>Any pension plan that has any US employees</fullName>
+                <default>false</default>
+                <label>Any pension plan that has any US employees</label>
+            </value>
+            <value>
+                <fullName>Any trust governed by the laws of the United States</fullName>
+                <default>false</default>
+                <label>Any trust governed by the laws of the United States</label>
+            </value>
+            <value>
+                <fullName>Any commodity pool, pooled account, investment fund, or other collective investment vehicle majority owned by the US and offered to US Persons</fullName>
+                <default>false</default>
+                <label>Any commodity pool, pooled account, investment fund, or other collective investment vehicle majority owned by the US and offered to US Persons</label>
+            </value>
+            <value>
+                <fullName>Any legal entity majority owned by a US Person</fullName>
+                <default>false</default>
+                <label>Any legal entity majority owned by a US Person</label>
+            </value>
+            <value>
+                <fullName>Any individual or joint account where the beneficial owner is a US person</fullName>
+                <default>false</default>
+                <label>Any individual or joint account where the beneficial owner is a US person</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

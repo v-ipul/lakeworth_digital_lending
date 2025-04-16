@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FINS_CIB_Product_Family__c</fullName>
+    <description>To be updated with product catalog in the future. Demo workaround in interim.</description>
+    <externalId>false</externalId>
+    <label>Product Family</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Equity Securities</fullName>
+                <default>false</default>
+                <label>Equity Securities</label>
+            </value>
+            <value>
+                <fullName>Commodities</fullName>
+                <default>false</default>
+                <label>Commodities</label>
+            </value>
+            <value>
+                <fullName>Debt Securities</fullName>
+                <default>false</default>
+                <label>Debt Securities</label>
+            </value>
+            <value>
+                <fullName>Foreign Exchange</fullName>
+                <default>false</default>
+                <label>Foreign Exchange</label>
+            </value>
+            <value>
+                <fullName>Derivatives</fullName>
+                <default>false</default>
+                <label>Derivatives</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,1241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FINS_CIB_SIC_Code__c</fullName>
+    <externalId>false</externalId>
+    <label>SIC Code</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>100 - AGRICULTURAL PRODUCTION-CROPS</fullName>
+                <default>false</default>
+                <label>100 - AGRICULTURAL PRODUCTION-CROPS</label>
+            </value>
+            <value>
+                <fullName>200 - AGRICULTURAL PROD-LIVESTOCK &amp; ANIMAL SPECIALTIES</fullName>
+                <default>false</default>
+                <label>200 - AGRICULTURAL PROD-LIVESTOCK &amp; ANIMAL SPECIALTIES</label>
+            </value>
+            <value>
+                <fullName>700 - AGRICULTURAL SERVICES</fullName>
+                <default>false</default>
+                <label>700 - AGRICULTURAL SERVICES</label>
+            </value>
+            <value>
+                <fullName>800 - FORESTRY</fullName>
+                <default>false</default>
+                <label>800 - FORESTRY</label>
+            </value>
+            <value>
+                <fullName>900 - FISHING, HUNTING AND TRAPPING</fullName>
+                <default>false</default>
+                <label>900 - FISHING, HUNTING AND TRAPPING</label>
+            </value>
+            <value>
+                <fullName>1000 - METAL MINING</fullName>
+                <default>false</default>
+                <label>1000 - METAL MINING</label>
+            </value>
+            <value>
+                <fullName>1040 - GOLD AND SILVER ORES</fullName>
+                <default>false</default>
+                <label>1040 - GOLD AND SILVER ORES</label>
+            </value>
+            <value>
+                <fullName>1090 - MISCELLANEOUS METAL ORES</fullName>
+                <default>false</default>
+                <label>1090 - MISCELLANEOUS METAL ORES</label>
+            </value>
+            <value>
+                <fullName>1220 - BITUMINOUS COAL &amp; LIGNITE MINING</fullName>
+                <default>false</default>
+                <label>1220 - BITUMINOUS COAL &amp; LIGNITE MINING</label>
+            </value>
+            <value>
+                <fullName>1221 - BITUMINOUS COAL &amp; LIGNITE SURFACE MINING</fullName>
+                <default>false</default>
+                <label>1221 - BITUMINOUS COAL &amp; LIGNITE SURFACE MINING</label>
+            </value>
+            <value>
+                <fullName>1311 - CRUDE PETROLEUM &amp; NATURAL GAS</fullName>
+                <default>false</default>
+                <label>1311 - CRUDE PETROLEUM &amp; NATURAL GAS</label>
+            </value>
+            <value>
+                <fullName>1381 - DRILLING OIL &amp; GAS WELLS</fullName>
+                <default>false</default>
+                <label>1381 - DRILLING OIL &amp; GAS WELLS</label>
+            </value>
+            <value>
+                <fullName>1382 - OIL &amp; GAS FIELD EXPLORATION SERVICES</fullName>
+                <default>false</default>
+                <label>1382 - OIL &amp; GAS FIELD EXPLORATION SERVICES</label>
+            </value>
+            <value>
+                <fullName>1389 - OIL &amp; GAS FIELD SERVICES, NEC</fullName>
+                <default>false</default>
+                <label>1389 - OIL &amp; GAS FIELD SERVICES, NEC</label>
+            </value>
+            <value>
+                <fullName>1400 - MINING &amp; QUARRYING OF NONMETALLIC MINERALS (NO FUELS)</fullName>
+                <default>false</default>
+                <label>1400 - MINING &amp; QUARRYING OF NONMETALLIC MINERALS (NO FUELS)</label>
+            </value>
+            <value>
+                <fullName>1520 - GENERAL BLDG CONTRACTORS - RESIDENTIAL BLDGS</fullName>
+                <default>false</default>
+                <label>1520 - GENERAL BLDG CONTRACTORS - RESIDENTIAL BLDGS</label>
+            </value>
+            <value>
+                <fullName>1531 - OPERATIVE BUILDERS</fullName>
+                <default>false</default>
+                <label>1531 - OPERATIVE BUILDERS</label>
+            </value>
+            <value>
+                <fullName>1540 - GENERAL BLDG CONTRACTORS - NONRESIDENTIAL BLDGS</fullName>
+                <default>false</default>
+                <label>1540 - GENERAL BLDG CONTRACTORS - NONRESIDENTIAL BLDGS</label>
+            </value>
+            <value>
+                <fullName>1600 - HEAVY CONSTRUCTION OTHER THAN BLDG CONST - CONTRACTORS</fullName>
+                <default>false</default>
+                <label>1600 - HEAVY CONSTRUCTION OTHER THAN BLDG CONST - CONTRACTORS</label>
+            </value>
+            <value>
+                <fullName>1623 - WATER, SEWER, PIPELINE, COMM &amp; POWER LINE CONSTRUCTION</fullName>
+                <default>false</default>
+                <label>1623 - WATER, SEWER, PIPELINE, COMM &amp; POWER LINE CONSTRUCTION</label>
+            </value>
+            <value>
+                <fullName>1700 - CONSTRUCTION - SPECIAL TRADE CONTRACTORS</fullName>
+                <default>false</default>
+                <label>1700 - CONSTRUCTION - SPECIAL TRADE CONTRACTORS</label>
+            </value>
+            <value>
+                <fullName>1731 - ELECTRICAL WORK</fullName>
+                <default>false</default>
+                <label>1731 - ELECTRICAL WORK</label>
+            </value>
+            <value>
+                <fullName>2000 - FOOD AND KINDRED PRODUCTS</fullName>
+                <default>false</default>
+                <label>2000 - FOOD AND KINDRED PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>2011 - MEAT PACKING PLANTS</fullName>
+                <default>false</default>
+                <label>2011 - MEAT PACKING PLANTS</label>
+            </value>
+            <value>
+                <fullName>2013 - SAUSAGES &amp; OTHER PREPARED MEAT PRODUCTS</fullName>
+                <default>false</default>
+                <label>2013 - SAUSAGES &amp; OTHER PREPARED MEAT PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>2015 - POULTRY SLAUGHTERING AND PROCESSING</fullName>
+                <default>false</default>
+                <label>2015 - POULTRY SLAUGHTERING AND PROCESSING</label>
+            </value>
+            <value>
+                <fullName>2020 - DAIRY PRODUCTS</fullName>
+                <default>false</default>
+                <label>2020 - DAIRY PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>2024 - ICE CREAM &amp; FROZEN DESSERTS</fullName>
+                <default>false</default>
+                <label>2024 - ICE CREAM &amp; FROZEN DESSERTS</label>
+            </value>
+            <value>
+                <fullName>2030 - CANNED, FROZEN &amp; PRESERVD FRUIT, VEG &amp; FOOD SPECIALTIES</fullName>
+                <default>false</default>
+                <label>2030 - CANNED, FROZEN &amp; PRESERVD FRUIT, VEG &amp; FOOD SPECIALTIES</label>
+            </value>
+            <value>
+                <fullName>2033 - CANNED, FRUITS, VEG, PRESERVES, JAMS &amp; JELLIES</fullName>
+                <default>false</default>
+                <label>2033 - CANNED, FRUITS, VEG, PRESERVES, JAMS &amp; JELLIES</label>
+            </value>
+            <value>
+                <fullName>2040 - GRAIN MILL PRODUCTS</fullName>
+                <default>false</default>
+                <label>2040 - GRAIN MILL PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>2050 - BAKERY PRODUCTS</fullName>
+                <default>false</default>
+                <label>2050 - BAKERY PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>2052 - COOKIES &amp; CRACKERS</fullName>
+                <default>false</default>
+                <label>2052 - COOKIES &amp; CRACKERS</label>
+            </value>
+            <value>
+                <fullName>2060 - SUGAR &amp; CONFECTIONERY PRODUCTS</fullName>
+                <default>false</default>
+                <label>2060 - SUGAR &amp; CONFECTIONERY PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>2070 - FATS &amp; OILS</fullName>
+                <default>false</default>
+                <label>2070 - FATS &amp; OILS</label>
+            </value>
+            <value>
+                <fullName>2080 - BEVERAGES</fullName>
+                <default>false</default>
+                <label>2080 - BEVERAGES</label>
+            </value>
+            <value>
+                <fullName>2082 - MALT BEVERAGES</fullName>
+                <default>false</default>
+                <label>2082 - MALT BEVERAGES</label>
+            </value>
+            <value>
+                <fullName>2086 - BOTTLED &amp; CANNED SOFT DRINKS &amp; CARBONATED WATERS</fullName>
+                <default>false</default>
+                <label>2086 - BOTTLED &amp; CANNED SOFT DRINKS &amp; CARBONATED WATERS</label>
+            </value>
+            <value>
+                <fullName>2090 - MISCELLANEOUS FOOD PREPARATIONS &amp; KINDRED PRODUCTS</fullName>
+                <default>false</default>
+                <label>2090 - MISCELLANEOUS FOOD PREPARATIONS &amp; KINDRED PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>2092 - PREPARED FRESH OR FROZEN FISH &amp; SEAFOODS</fullName>
+                <default>false</default>
+                <label>2092 - PREPARED FRESH OR FROZEN FISH &amp; SEAFOODS</label>
+            </value>
+            <value>
+                <fullName>2100 - TOBACCO PRODUCTS</fullName>
+                <default>false</default>
+                <label>2100 - TOBACCO PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>2111 - CIGARETTES</fullName>
+                <default>false</default>
+                <label>2111 - CIGARETTES</label>
+            </value>
+            <value>
+                <fullName>2200 - TEXTILE MILL PRODUCTS</fullName>
+                <default>false</default>
+                <label>2200 - TEXTILE MILL PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>2211 - BROADWOVEN FABRIC MILLS, COTTON</fullName>
+                <default>false</default>
+                <label>2211 - BROADWOVEN FABRIC MILLS, COTTON</label>
+            </value>
+            <value>
+                <fullName>2221 - BROADWOVEN FABRIC MILLS, MAN MADE FIBER &amp; SILK</fullName>
+                <default>false</default>
+                <label>2221 - BROADWOVEN FABRIC MILLS, MAN MADE FIBER &amp; SILK</label>
+            </value>
+            <value>
+                <fullName>2250 - KNITTING MILLS</fullName>
+                <default>false</default>
+                <label>2250 - KNITTING MILLS</label>
+            </value>
+            <value>
+                <fullName>2253 - KNIT OUTERWEAR MILLS</fullName>
+                <default>false</default>
+                <label>2253 - KNIT OUTERWEAR MILLS</label>
+            </value>
+            <value>
+                <fullName>2273 - CARPETS &amp; RUGS</fullName>
+                <default>false</default>
+                <label>2273 - CARPETS &amp; RUGS</label>
+            </value>
+            <value>
+                <fullName>2300 - APPAREL &amp; OTHER FINISHD PRODS OF FABRICS &amp; SIMILAR MATL</fullName>
+                <default>false</default>
+                <label>2300 - APPAREL &amp; OTHER FINISHD PRODS OF FABRICS &amp; SIMILAR MATL</label>
+            </value>
+            <value>
+                <fullName>2320 - MEN&apos;S &amp; BOYS&apos; FURNISHGS, WORK CLOTHG, &amp; ALLIED GARMENTS</fullName>
+                <default>false</default>
+                <label>2320 - MEN&apos;S &amp; BOYS&apos; FURNISHGS, WORK CLOTHG, &amp; ALLIED GARMENTS</label>
+            </value>
+            <value>
+                <fullName>2330 - WOMEN&apos;S, MISSES&apos;, AND JUNIORS OUTERWEAR</fullName>
+                <default>false</default>
+                <label>2330 - WOMEN&apos;S, MISSES&apos;, AND JUNIORS OUTERWEAR</label>
+            </value>
+            <value>
+                <fullName>2340 - WOMEN&apos;S, MISSES&apos;, CHILDREN&apos;S &amp; INFANTS&apos; UNDERGARMENTS</fullName>
+                <default>false</default>
+                <label>2340 - WOMEN&apos;S, MISSES&apos;, CHILDREN&apos;S &amp; INFANTS&apos; UNDERGARMENTS</label>
+            </value>
+            <value>
+                <fullName>2390 - MISCELLANEOUS FABRICATED TEXTILE PRODUCTS</fullName>
+                <default>false</default>
+                <label>2390 - MISCELLANEOUS FABRICATED TEXTILE PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>2400 - LUMBER &amp; WOOD PRODUCTS (NO FURNITURE)</fullName>
+                <default>false</default>
+                <label>2400 - LUMBER &amp; WOOD PRODUCTS (NO FURNITURE)</label>
+            </value>
+            <value>
+                <fullName>2421 - SAWMILLS &amp; PLANTING MILLS, GENERAL</fullName>
+                <default>false</default>
+                <label>2421 - SAWMILLS &amp; PLANTING MILLS, GENERAL</label>
+            </value>
+            <value>
+                <fullName>2430 - MILLWOOD, VENEER, PLYWOOD, &amp; STRUCTURAL WOOD MEMBERS</fullName>
+                <default>false</default>
+                <label>2430 - MILLWOOD, VENEER, PLYWOOD, &amp; STRUCTURAL WOOD MEMBERS</label>
+            </value>
+            <value>
+                <fullName>2451 - MOBILE HOMES</fullName>
+                <default>false</default>
+                <label>2451 - MOBILE HOMES</label>
+            </value>
+            <value>
+                <fullName>2452 - PREFABRICATED WOOD BLDGS &amp; COMPONENTS</fullName>
+                <default>false</default>
+                <label>2452 - PREFABRICATED WOOD BLDGS &amp; COMPONENTS</label>
+            </value>
+            <value>
+                <fullName>2510 - HOUSEHOLD FURNITURE</fullName>
+                <default>false</default>
+                <label>2510 - HOUSEHOLD FURNITURE</label>
+            </value>
+            <value>
+                <fullName>2511 - WOOD HOUSEHOLD FURNITURE, (NO UPHOLSTERED)</fullName>
+                <default>false</default>
+                <label>2511 - WOOD HOUSEHOLD FURNITURE, (NO UPHOLSTERED)</label>
+            </value>
+            <value>
+                <fullName>2520 - OFFICE FURNITURE</fullName>
+                <default>false</default>
+                <label>2520 - OFFICE FURNITURE</label>
+            </value>
+            <value>
+                <fullName>2522 - OFFICE FURNITURE (NO WOOD)</fullName>
+                <default>false</default>
+                <label>2522 - OFFICE FURNITURE (NO WOOD)</label>
+            </value>
+            <value>
+                <fullName>2531 - PUBLIC BLDG &amp; RELATED FURNITURE</fullName>
+                <default>false</default>
+                <label>2531 - PUBLIC BLDG &amp; RELATED FURNITURE</label>
+            </value>
+            <value>
+                <fullName>2540 - PARTITIONS, SHELVG, LOCKERS, &amp; OFFICE &amp; STORE FIXTURES</fullName>
+                <default>false</default>
+                <label>2540 - PARTITIONS, SHELVG, LOCKERS, &amp; OFFICE &amp; STORE FIXTURES</label>
+            </value>
+            <value>
+                <fullName>2590 - MISCELLANEOUS FURNITURE &amp; FIXTURES</fullName>
+                <default>false</default>
+                <label>2590 - MISCELLANEOUS FURNITURE &amp; FIXTURES</label>
+            </value>
+            <value>
+                <fullName>2600 - PAPERS &amp; ALLIED PRODUCTS</fullName>
+                <default>false</default>
+                <label>2600 - PAPERS &amp; ALLIED PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>2611 - PULP MILLS</fullName>
+                <default>false</default>
+                <label>2611 - PULP MILLS</label>
+            </value>
+            <value>
+                <fullName>2621 - PAPER MILLS</fullName>
+                <default>false</default>
+                <label>2621 - PAPER MILLS</label>
+            </value>
+            <value>
+                <fullName>2631 - PAPERBOARD MILLS</fullName>
+                <default>false</default>
+                <label>2631 - PAPERBOARD MILLS</label>
+            </value>
+            <value>
+                <fullName>2650 - PAPERBOARD CONTAINERS &amp; BOXES</fullName>
+                <default>false</default>
+                <label>2650 - PAPERBOARD CONTAINERS &amp; BOXES</label>
+            </value>
+            <value>
+                <fullName>2670 - CONVERTED PAPER &amp; PAPERBOARD PRODS (NO CONTANERS/BOXES)</fullName>
+                <default>false</default>
+                <label>2670 - CONVERTED PAPER &amp; PAPERBOARD PRODS (NO CONTANERS/BOXES)</label>
+            </value>
+            <value>
+                <fullName>2673 - PLASTICS, FOIL &amp; COATED PAPER BAGS</fullName>
+                <default>false</default>
+                <label>2673 - PLASTICS, FOIL &amp; COATED PAPER BAGS</label>
+            </value>
+            <value>
+                <fullName>2711 - NEWSPAPERS: PUBLISHING OR PUBLISHING &amp; PRINTING</fullName>
+                <default>false</default>
+                <label>2711 - NEWSPAPERS: PUBLISHING OR PUBLISHING &amp; PRINTING</label>
+            </value>
+            <value>
+                <fullName>2721 - PERIODICALS: PUBLISHING OR PUBLISHING &amp; PRINTING</fullName>
+                <default>false</default>
+                <label>2721 - PERIODICALS: PUBLISHING OR PUBLISHING &amp; PRINTING</label>
+            </value>
+            <value>
+                <fullName>2731 - BOOKS: PUBLISHING OR PUBLISHING &amp; PRINTING</fullName>
+                <default>false</default>
+                <label>2731 - BOOKS: PUBLISHING OR PUBLISHING &amp; PRINTING</label>
+            </value>
+            <value>
+                <fullName>2732 - BOOK PRINTING</fullName>
+                <default>false</default>
+                <label>2732 - BOOK PRINTING</label>
+            </value>
+            <value>
+                <fullName>2741 - MISCELLANEOUS PUBLISHING</fullName>
+                <default>false</default>
+                <label>2741 - MISCELLANEOUS PUBLISHING</label>
+            </value>
+            <value>
+                <fullName>2750 - COMMERCIAL PRINTING</fullName>
+                <default>false</default>
+                <label>2750 - COMMERCIAL PRINTING</label>
+            </value>
+            <value>
+                <fullName>2761 - MANIFOLD BUSINESS FORMS</fullName>
+                <default>false</default>
+                <label>2761 - MANIFOLD BUSINESS FORMS</label>
+            </value>
+            <value>
+                <fullName>2771 - GREETING CARDS</fullName>
+                <default>false</default>
+                <label>2771 - GREETING CARDS</label>
+            </value>
+            <value>
+                <fullName>2780 - BLANKBOOKS, LOOSELEAF BINDERS &amp; BOOKBINDG &amp; RELATD WORK</fullName>
+                <default>false</default>
+                <label>2780 - BLANKBOOKS, LOOSELEAF BINDERS &amp; BOOKBINDG &amp; RELATD WORK</label>
+            </value>
+            <value>
+                <fullName>2790 - SERVICE INDUSTRIES FOR THE PRINTING TRADE</fullName>
+                <default>false</default>
+                <label>2790 - SERVICE INDUSTRIES FOR THE PRINTING TRADE</label>
+            </value>
+            <value>
+                <fullName>2800 - CHEMICALS &amp; ALLIED PRODUCTS</fullName>
+                <default>false</default>
+                <label>2800 - CHEMICALS &amp; ALLIED PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>2810 - INDUSTRIAL INORGANIC CHEMICALS</fullName>
+                <default>false</default>
+                <label>2810 - INDUSTRIAL INORGANIC CHEMICALS</label>
+            </value>
+            <value>
+                <fullName>2820 - PLASTIC MATERIAL, SYNTH RESIN/RUBBER, CELLULOS (NO GLASS)</fullName>
+                <default>false</default>
+                <label>2820 - PLASTIC MATERIAL, SYNTH RESIN/RUBBER, CELLULOS (NO GLASS)</label>
+            </value>
+            <value>
+                <fullName>2821 - PLASTIC MATERIALS, SYNTH RESINS &amp; NONVULCAN ELASTOMERS</fullName>
+                <default>false</default>
+                <label>2821 - PLASTIC MATERIALS, SYNTH RESINS &amp; NONVULCAN ELASTOMERS</label>
+            </value>
+            <value>
+                <fullName>2833 - MEDICINAL CHEMICALS &amp; BOTANICAL PRODUCTS</fullName>
+                <default>false</default>
+                <label>2833 - MEDICINAL CHEMICALS &amp; BOTANICAL PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>2834 - PHARMACEUTICAL PREPARATIONS</fullName>
+                <default>false</default>
+                <label>2834 - PHARMACEUTICAL PREPARATIONS</label>
+            </value>
+            <value>
+                <fullName>2835 - IN VITRO &amp; IN VIVO DIAGNOSTIC SUBSTANCES</fullName>
+                <default>false</default>
+                <label>2835 - IN VITRO &amp; IN VIVO DIAGNOSTIC SUBSTANCES</label>
+            </value>
+            <value>
+                <fullName>2836 - BIOLOGICAL PRODUCTS, (NO DISGNOSTIC SUBSTANCES)</fullName>
+                <default>false</default>
+                <label>2836 - BIOLOGICAL PRODUCTS, (NO DISGNOSTIC SUBSTANCES)</label>
+            </value>
+            <value>
+                <fullName>2840 - SOAP, DETERGENTS, CLEANG PREPARATIONS, PERFUMES, COSMETICS</fullName>
+                <default>false</default>
+                <label>2840 - SOAP, DETERGENTS, CLEANG PREPARATIONS, PERFUMES, COSMETICS</label>
+            </value>
+            <value>
+                <fullName>2842 - SPECIALTY CLEANING, POLISHING AND SANITATION PREPARATIONS</fullName>
+                <default>false</default>
+                <label>2842 - SPECIALTY CLEANING, POLISHING AND SANITATION PREPARATIONS</label>
+            </value>
+            <value>
+                <fullName>2844 - PERFUMES, COSMETICS &amp; OTHER TOILET PREPARATIONS</fullName>
+                <default>false</default>
+                <label>2844 - PERFUMES, COSMETICS &amp; OTHER TOILET PREPARATIONS</label>
+            </value>
+            <value>
+                <fullName>2851 - PAINTS, VARNISHES, LACQUERS, ENAMELS &amp; ALLIED PRODS</fullName>
+                <default>false</default>
+                <label>2851 - PAINTS, VARNISHES, LACQUERS, ENAMELS &amp; ALLIED PRODS</label>
+            </value>
+            <value>
+                <fullName>2860 - INDUSTRIAL ORGANIC CHEMICALS</fullName>
+                <default>false</default>
+                <label>2860 - INDUSTRIAL ORGANIC CHEMICALS</label>
+            </value>
+            <value>
+                <fullName>2870 - AGRICULTURAL CHEMICALS</fullName>
+                <default>false</default>
+                <label>2870 - AGRICULTURAL CHEMICALS</label>
+            </value>
+            <value>
+                <fullName>2890 - MISCELLANEOUS CHEMICAL PRODUCTS</fullName>
+                <default>false</default>
+                <label>2890 - MISCELLANEOUS CHEMICAL PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>2891 - ADHESIVES &amp; SEALANTS</fullName>
+                <default>false</default>
+                <label>2891 - ADHESIVES &amp; SEALANTS</label>
+            </value>
+            <value>
+                <fullName>2911 - PETROLEUM REFINING</fullName>
+                <default>false</default>
+                <label>2911 - PETROLEUM REFINING</label>
+            </value>
+            <value>
+                <fullName>2950 - ASPHALT PAVING &amp; ROOFING MATERIALS</fullName>
+                <default>false</default>
+                <label>2950 - ASPHALT PAVING &amp; ROOFING MATERIALS</label>
+            </value>
+            <value>
+                <fullName>2990 - MISCELLANEOUS PRODUCTS OF PETROLEUM &amp; COAL</fullName>
+                <default>false</default>
+                <label>2990 - MISCELLANEOUS PRODUCTS OF PETROLEUM &amp; COAL</label>
+            </value>
+            <value>
+                <fullName>3011 - TIRES &amp; INNER TUBES</fullName>
+                <default>false</default>
+                <label>3011 - TIRES &amp; INNER TUBES</label>
+            </value>
+            <value>
+                <fullName>3021 - RUBBER &amp; PLASTICS FOOTWEAR</fullName>
+                <default>false</default>
+                <label>3021 - RUBBER &amp; PLASTICS FOOTWEAR</label>
+            </value>
+            <value>
+                <fullName>3050 - GASKETS, PACKG &amp; SEALG DEVICES &amp; RUBBER &amp; PLASTICS HOSE</fullName>
+                <default>false</default>
+                <label>3050 - GASKETS, PACKG &amp; SEALG DEVICES &amp; RUBBER &amp; PLASTICS HOSE</label>
+            </value>
+            <value>
+                <fullName>3060 - FABRICATED RUBBER PRODUCTS, NEC</fullName>
+                <default>false</default>
+                <label>3060 - FABRICATED RUBBER PRODUCTS, NEC</label>
+            </value>
+            <value>
+                <fullName>3080 - MISCELLANEOUS PLASTICS PRODUCTS</fullName>
+                <default>false</default>
+                <label>3080 - MISCELLANEOUS PLASTICS PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>3081 - UNSUPPORTED PLASTICS FILM &amp; SHEET</fullName>
+                <default>false</default>
+                <label>3081 - UNSUPPORTED PLASTICS FILM &amp; SHEET</label>
+            </value>
+            <value>
+                <fullName>3086 - PLASTICS FOAM PRODUCTS</fullName>
+                <default>false</default>
+                <label>3086 - PLASTICS FOAM PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>3089 - PLASTICS PRODUCTS, NEC</fullName>
+                <default>false</default>
+                <label>3089 - PLASTICS PRODUCTS, NEC</label>
+            </value>
+            <value>
+                <fullName>3100 - LEATHER &amp; LEATHER PRODUCTS</fullName>
+                <default>false</default>
+                <label>3100 - LEATHER &amp; LEATHER PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>3140 - FOOTWEAR, (NO RUBBER)</fullName>
+                <default>false</default>
+                <label>3140 - FOOTWEAR, (NO RUBBER)</label>
+            </value>
+            <value>
+                <fullName>3211 - FLAT GLASS</fullName>
+                <default>false</default>
+                <label>3211 - FLAT GLASS</label>
+            </value>
+            <value>
+                <fullName>3220 - GLASS &amp; GLASSWARE, PRESSED OR BLOWN</fullName>
+                <default>false</default>
+                <label>3220 - GLASS &amp; GLASSWARE, PRESSED OR BLOWN</label>
+            </value>
+            <value>
+                <fullName>3221 - GLASS CONTAINERS</fullName>
+                <default>false</default>
+                <label>3221 - GLASS CONTAINERS</label>
+            </value>
+            <value>
+                <fullName>3231 - GLASS PRODUCTS, MADE OF PURCHASED GLASS</fullName>
+                <default>false</default>
+                <label>3231 - GLASS PRODUCTS, MADE OF PURCHASED GLASS</label>
+            </value>
+            <value>
+                <fullName>3241 - CEMENT, HYDRAULIC</fullName>
+                <default>false</default>
+                <label>3241 - CEMENT, HYDRAULIC</label>
+            </value>
+            <value>
+                <fullName>3250 - STRUCTURAL CLAY PRODUCTS</fullName>
+                <default>false</default>
+                <label>3250 - STRUCTURAL CLAY PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>3260 - POTTERY &amp; RELATED PRODUCTS</fullName>
+                <default>false</default>
+                <label>3260 - POTTERY &amp; RELATED PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>3270 - CONCRETE, GYPSUM &amp; PLASTER PRODUCTS</fullName>
+                <default>false</default>
+                <label>3270 - CONCRETE, GYPSUM &amp; PLASTER PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>3272 - CONCRETE PRODUCTS, EXCEPT BLOCK &amp; BRICK</fullName>
+                <default>false</default>
+                <label>3272 - CONCRETE PRODUCTS, EXCEPT BLOCK &amp; BRICK</label>
+            </value>
+            <value>
+                <fullName>3281 - CUT STONE &amp; STONE PRODUCTS</fullName>
+                <default>false</default>
+                <label>3281 - CUT STONE &amp; STONE PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>3290 - ABRASIVE, ASBESTOS &amp; MISC NONMETALLIC MINERAL PRODS</fullName>
+                <default>false</default>
+                <label>3290 - ABRASIVE, ASBESTOS &amp; MISC NONMETALLIC MINERAL PRODS</label>
+            </value>
+            <value>
+                <fullName>3310 - STEEL WORKS, BLAST FURNACES &amp; ROLLING &amp; FINISHING MILLS</fullName>
+                <default>false</default>
+                <label>3310 - STEEL WORKS, BLAST FURNACES &amp; ROLLING &amp; FINISHING MILLS</label>
+            </value>
+            <value>
+                <fullName>3312 - STEEL WORKS, BLAST FURNACES &amp; ROLLING MILLS (COKE OVENS)</fullName>
+                <default>false</default>
+                <label>3312 - STEEL WORKS, BLAST FURNACES &amp; ROLLING MILLS (COKE OVENS)</label>
+            </value>
+            <value>
+                <fullName>3317 - STEEL PIPE &amp; TUBES</fullName>
+                <default>false</default>
+                <label>3317 - STEEL PIPE &amp; TUBES</label>
+            </value>
+            <value>
+                <fullName>3320 - IRON &amp; STEEL FOUNDRIES</fullName>
+                <default>false</default>
+                <label>3320 - IRON &amp; STEEL FOUNDRIES</label>
+            </value>
+            <value>
+                <fullName>3330 - PRIMARY SMELTING &amp; REFINING OF NONFERROUS METALS</fullName>
+                <default>false</default>
+                <label>3330 - PRIMARY SMELTING &amp; REFINING OF NONFERROUS METALS</label>
+            </value>
+            <value>
+                <fullName>3334 - PRIMARY PRODUCTION OF ALUMINUM</fullName>
+                <default>false</default>
+                <label>3334 - PRIMARY PRODUCTION OF ALUMINUM</label>
+            </value>
+            <value>
+                <fullName>3341 - SECONDARY SMELTING &amp; REFINING OF NONFERROUS METALS</fullName>
+                <default>false</default>
+                <label>3341 - SECONDARY SMELTING &amp; REFINING OF NONFERROUS METALS</label>
+            </value>
+            <value>
+                <fullName>3350 - ROLLING DRAWING &amp; EXTRUDING OF NONFERROUS METALS</fullName>
+                <default>false</default>
+                <label>3350 - ROLLING DRAWING &amp; EXTRUDING OF NONFERROUS METALS</label>
+            </value>
+            <value>
+                <fullName>3357 - DRAWING &amp; INSULATING OF NONFERROUS WIRE</fullName>
+                <default>false</default>
+                <label>3357 - DRAWING &amp; INSULATING OF NONFERROUS WIRE</label>
+            </value>
+            <value>
+                <fullName>3360 - NONFERROUS FOUNDRIES (CASTINGS)</fullName>
+                <default>false</default>
+                <label>3360 - NONFERROUS FOUNDRIES (CASTINGS)</label>
+            </value>
+            <value>
+                <fullName>3390 - MISCELLANEOUS PRIMARY METAL PRODUCTS</fullName>
+                <default>false</default>
+                <label>3390 - MISCELLANEOUS PRIMARY METAL PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>3411 - METAL CANS</fullName>
+                <default>false</default>
+                <label>3411 - METAL CANS</label>
+            </value>
+            <value>
+                <fullName>3412 - METAL SHIPPING BARRELS, DRUMS, KEGS &amp; PAILS</fullName>
+                <default>false</default>
+                <label>3412 - METAL SHIPPING BARRELS, DRUMS, KEGS &amp; PAILS</label>
+            </value>
+            <value>
+                <fullName>3420 - CUTLERY, HANDTOOLS &amp; GENERAL HARDWARE</fullName>
+                <default>false</default>
+                <label>3420 - CUTLERY, HANDTOOLS &amp; GENERAL HARDWARE</label>
+            </value>
+            <value>
+                <fullName>3430 - HEATING EQUIP, EXCEPT ELEC &amp; WARM AIR; &amp; PLUMBING FIXTURES</fullName>
+                <default>false</default>
+                <label>3430 - HEATING EQUIP, EXCEPT ELEC &amp; WARM AIR; &amp; PLUMBING FIXTURES</label>
+            </value>
+            <value>
+                <fullName>3433 - HEATING EQUIPMENT, EXCEPT ELECTRIC &amp; WARM AIR FURNACES</fullName>
+                <default>false</default>
+                <label>3433 - HEATING EQUIPMENT, EXCEPT ELECTRIC &amp; WARM AIR FURNACES</label>
+            </value>
+            <value>
+                <fullName>3440 - FABRICATED STRUCTURAL METAL PRODUCTS</fullName>
+                <default>false</default>
+                <label>3440 - FABRICATED STRUCTURAL METAL PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>3442 - METAL DOORS, SASH, FRAMES, MOLDINGS &amp; TRIM</fullName>
+                <default>false</default>
+                <label>3442 - METAL DOORS, SASH, FRAMES, MOLDINGS &amp; TRIM</label>
+            </value>
+            <value>
+                <fullName>3443 - FABRICATED PLATE WORK (BOILER SHOPS)</fullName>
+                <default>false</default>
+                <label>3443 - FABRICATED PLATE WORK (BOILER SHOPS)</label>
+            </value>
+            <value>
+                <fullName>3444 - SHEET METAL WORK</fullName>
+                <default>false</default>
+                <label>3444 - SHEET METAL WORK</label>
+            </value>
+            <value>
+                <fullName>3448 - PREFABRICATED METAL BUILDINGS &amp; COMPONENTS</fullName>
+                <default>false</default>
+                <label>3448 - PREFABRICATED METAL BUILDINGS &amp; COMPONENTS</label>
+            </value>
+            <value>
+                <fullName>3451 - SCREW MACHINE PRODUCTS</fullName>
+                <default>false</default>
+                <label>3451 - SCREW MACHINE PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>3452 - BOLTS, NUTS, SCREWS, RIVETS &amp; WASHERS</fullName>
+                <default>false</default>
+                <label>3452 - BOLTS, NUTS, SCREWS, RIVETS &amp; WASHERS</label>
+            </value>
+            <value>
+                <fullName>3460 - METAL FORGINGS &amp; STAMPINGS</fullName>
+                <default>false</default>
+                <label>3460 - METAL FORGINGS &amp; STAMPINGS</label>
+            </value>
+            <value>
+                <fullName>3470 - COATING, ENGRAVING &amp; ALLIED SERVICES</fullName>
+                <default>false</default>
+                <label>3470 - COATING, ENGRAVING &amp; ALLIED SERVICES</label>
+            </value>
+            <value>
+                <fullName>3480 - ORDNANCE &amp; ACCESSORIES, (NO VEHICLES/GUIDED MISSILES)</fullName>
+                <default>false</default>
+                <label>3480 - ORDNANCE &amp; ACCESSORIES, (NO VEHICLES/GUIDED MISSILES)</label>
+            </value>
+            <value>
+                <fullName>3490 - MISCELLANEOUS FABRICATED METAL PRODUCTS</fullName>
+                <default>false</default>
+                <label>3490 - MISCELLANEOUS FABRICATED METAL PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>3510 - ENGINES &amp; TURBINES</fullName>
+                <default>false</default>
+                <label>3510 - ENGINES &amp; TURBINES</label>
+            </value>
+            <value>
+                <fullName>3523 - FARM MACHINERY &amp; EQUIPMENT</fullName>
+                <default>false</default>
+                <label>3523 - FARM MACHINERY &amp; EQUIPMENT</label>
+            </value>
+            <value>
+                <fullName>3524 - LAWN &amp; GARDEN TRACTORS &amp; HOME LAWN &amp; GARDENS EQUIP</fullName>
+                <default>false</default>
+                <label>3524 - LAWN &amp; GARDEN TRACTORS &amp; HOME LAWN &amp; GARDENS EQUIP</label>
+            </value>
+            <value>
+                <fullName>3530 - CONSTRUCTION, MINING &amp; MATERIALS HANDLING MACHINERY &amp; EQUIP</fullName>
+                <default>false</default>
+                <label>3530 - CONSTRUCTION, MINING &amp; MATERIALS HANDLING MACHINERY &amp; EQUIP</label>
+            </value>
+            <value>
+                <fullName>3531 - CONSTRUCTION MACHINERY &amp; EQUIP</fullName>
+                <default>false</default>
+                <label>3531 - CONSTRUCTION MACHINERY &amp; EQUIP</label>
+            </value>
+            <value>
+                <fullName>3532 - MINING MACHINERY &amp; EQUIP (NO OIL &amp; GAS FIELD MACH &amp; EQUIP)</fullName>
+                <default>false</default>
+                <label>3532 - MINING MACHINERY &amp; EQUIP (NO OIL &amp; GAS FIELD MACH &amp; EQUIP)</label>
+            </value>
+            <value>
+                <fullName>3533 - OIL &amp; GAS FIELD MACHINERY &amp; EQUIPMENT</fullName>
+                <default>false</default>
+                <label>3533 - OIL &amp; GAS FIELD MACHINERY &amp; EQUIPMENT</label>
+            </value>
+            <value>
+                <fullName>3537 - INDUSTRIAL TRUCKS, TRACTORS, TRAILORS &amp; STACKERS</fullName>
+                <default>false</default>
+                <label>3537 - INDUSTRIAL TRUCKS, TRACTORS, TRAILORS &amp; STACKERS</label>
+            </value>
+            <value>
+                <fullName>3540 - METALWORKG MACHINERY &amp; EQUIPMENT</fullName>
+                <default>false</default>
+                <label>3540 - METALWORKG MACHINERY &amp; EQUIPMENT</label>
+            </value>
+            <value>
+                <fullName>3541 - MACHINE TOOLS, METAL CUTTING TYPES</fullName>
+                <default>false</default>
+                <label>3541 - MACHINE TOOLS, METAL CUTTING TYPES</label>
+            </value>
+            <value>
+                <fullName>3550 - SPECIAL INDUSTRY MACHINERY (NO METALWORKING MACHINERY)</fullName>
+                <default>false</default>
+                <label>3550 - SPECIAL INDUSTRY MACHINERY (NO METALWORKING MACHINERY)</label>
+            </value>
+            <value>
+                <fullName>3555 - PRINTING TRADES MACHINERY &amp; EQUIPMENT</fullName>
+                <default>false</default>
+                <label>3555 - PRINTING TRADES MACHINERY &amp; EQUIPMENT</label>
+            </value>
+            <value>
+                <fullName>3559 - SPECIAL INDUSTRY MACHINERY, NEC</fullName>
+                <default>false</default>
+                <label>3559 - SPECIAL INDUSTRY MACHINERY, NEC</label>
+            </value>
+            <value>
+                <fullName>3560 - GENERAL INDUSTRIAL MACHINERY &amp; EQUIPMENT</fullName>
+                <default>false</default>
+                <label>3560 - GENERAL INDUSTRIAL MACHINERY &amp; EQUIPMENT</label>
+            </value>
+            <value>
+                <fullName>3561 - PUMPS &amp; PUMPING EQUIPMENT</fullName>
+                <default>false</default>
+                <label>3561 - PUMPS &amp; PUMPING EQUIPMENT</label>
+            </value>
+            <value>
+                <fullName>3562 - BALL &amp; ROLLER BEARINGS</fullName>
+                <default>false</default>
+                <label>3562 - BALL &amp; ROLLER BEARINGS</label>
+            </value>
+            <value>
+                <fullName>3564 - INDUSTRIAL &amp; COMMERCIAL FANS &amp; BLOWERS &amp; AIR PURIFING EQUIP</fullName>
+                <default>false</default>
+                <label>3564 - INDUSTRIAL &amp; COMMERCIAL FANS &amp; BLOWERS &amp; AIR PURIFING EQUIP</label>
+            </value>
+            <value>
+                <fullName>3567 - INDUSTRIAL PROCESS FURNACES &amp; OVENS</fullName>
+                <default>false</default>
+                <label>3567 - INDUSTRIAL PROCESS FURNACES &amp; OVENS</label>
+            </value>
+            <value>
+                <fullName>3569 - GENERAL INDUSTRIAL MACHINERY &amp; EQUIPMENT, NEC</fullName>
+                <default>false</default>
+                <label>3569 - GENERAL INDUSTRIAL MACHINERY &amp; EQUIPMENT, NEC</label>
+            </value>
+            <value>
+                <fullName>3570 - COMPUTER &amp; OFFICE EQUIPMENT</fullName>
+                <default>false</default>
+                <label>3570 - COMPUTER &amp; OFFICE EQUIPMENT</label>
+            </value>
+            <value>
+                <fullName>3571 - ELECTRONIC COMPUTERS</fullName>
+                <default>false</default>
+                <label>3571 - ELECTRONIC COMPUTERS</label>
+            </value>
+            <value>
+                <fullName>3572 - COMPUTER STORAGE DEVICES</fullName>
+                <default>false</default>
+                <label>3572 - COMPUTER STORAGE DEVICES</label>
+            </value>
+            <value>
+                <fullName>3575 - COMPUTER TERMINALS</fullName>
+                <default>false</default>
+                <label>3575 - COMPUTER TERMINALS</label>
+            </value>
+            <value>
+                <fullName>3576 - COMPUTER COMMUNICATIONS EQUIPMENT</fullName>
+                <default>false</default>
+                <label>3576 - COMPUTER COMMUNICATIONS EQUIPMENT</label>
+            </value>
+            <value>
+                <fullName>3577 - COMPUTER PERIPHERAL EQUIPMENT, NEC</fullName>
+                <default>false</default>
+                <label>3577 - COMPUTER PERIPHERAL EQUIPMENT, NEC</label>
+            </value>
+            <value>
+                <fullName>3578 - CALCULATING &amp; ACCOUNTING MACHINES (NO ELECTRONIC COMPUTERS)</fullName>
+                <default>false</default>
+                <label>3578 - CALCULATING &amp; ACCOUNTING MACHINES (NO ELECTRONIC COMPUTERS)</label>
+            </value>
+            <value>
+                <fullName>3579 - OFFICE MACHINES, NEC</fullName>
+                <default>false</default>
+                <label>3579 - OFFICE MACHINES, NEC</label>
+            </value>
+            <value>
+                <fullName>3580 - REFRIGERATION &amp; SERVICE INDUSTRY MACHINERY</fullName>
+                <default>false</default>
+                <label>3580 - REFRIGERATION &amp; SERVICE INDUSTRY MACHINERY</label>
+            </value>
+            <value>
+                <fullName>3585 - AIR-COND &amp; WARM AIR HEATG EQUIP &amp; COMM &amp; INDL REFRIG EQUIP</fullName>
+                <default>false</default>
+                <label>3585 - AIR-COND &amp; WARM AIR HEATG EQUIP &amp; COMM &amp; INDL REFRIG EQUIP</label>
+            </value>
+            <value>
+                <fullName>3590 - MISC INDUSTRIAL &amp; COMMERCIAL MACHINERY &amp; EQUIPMENT</fullName>
+                <default>false</default>
+                <label>3590 - MISC INDUSTRIAL &amp; COMMERCIAL MACHINERY &amp; EQUIPMENT</label>
+            </value>
+            <value>
+                <fullName>3600 - ELECTRONIC &amp; OTHER ELECTRICAL EQUIPMENT (NO COMPUTER EQUIP)</fullName>
+                <default>false</default>
+                <label>3600 - ELECTRONIC &amp; OTHER ELECTRICAL EQUIPMENT (NO COMPUTER EQUIP)</label>
+            </value>
+            <value>
+                <fullName>3612 - POWER, DISTRIBUTION &amp; SPECIALTY TRANSFORMERS</fullName>
+                <default>false</default>
+                <label>3612 - POWER, DISTRIBUTION &amp; SPECIALTY TRANSFORMERS</label>
+            </value>
+            <value>
+                <fullName>3613 - SWITCHGEAR &amp; SWITCHBOARD APPARATUS</fullName>
+                <default>false</default>
+                <label>3613 - SWITCHGEAR &amp; SWITCHBOARD APPARATUS</label>
+            </value>
+            <value>
+                <fullName>3620 - ELECTRICAL INDUSTRIAL APPARATUS</fullName>
+                <default>false</default>
+                <label>3620 - ELECTRICAL INDUSTRIAL APPARATUS</label>
+            </value>
+            <value>
+                <fullName>3621 - MOTORS &amp; GENERATORS</fullName>
+                <default>false</default>
+                <label>3621 - MOTORS &amp; GENERATORS</label>
+            </value>
+            <value>
+                <fullName>3630 - HOUSEHOLD APPLIANCES</fullName>
+                <default>false</default>
+                <label>3630 - HOUSEHOLD APPLIANCES</label>
+            </value>
+            <value>
+                <fullName>3634 - ELECTRIC HOUSEWARES &amp; FANS</fullName>
+                <default>false</default>
+                <label>3634 - ELECTRIC HOUSEWARES &amp; FANS</label>
+            </value>
+            <value>
+                <fullName>3640 - ELECTRIC LIGHTING &amp; WIRING EQUIPMENT</fullName>
+                <default>false</default>
+                <label>3640 - ELECTRIC LIGHTING &amp; WIRING EQUIPMENT</label>
+            </value>
+            <value>
+                <fullName>3651 - HOUSEHOLD AUDIO &amp; VIDEO EQUIPMENT</fullName>
+                <default>false</default>
+                <label>3651 - HOUSEHOLD AUDIO &amp; VIDEO EQUIPMENT</label>
+            </value>
+            <value>
+                <fullName>3652 - PHONOGRAPH RECORDS &amp; PRERECORDED AUDIO TAPES &amp; DISKS</fullName>
+                <default>false</default>
+                <label>3652 - PHONOGRAPH RECORDS &amp; PRERECORDED AUDIO TAPES &amp; DISKS</label>
+            </value>
+            <value>
+                <fullName>3661 - TELEPHONE &amp; TELEGRAPH APPARATUS</fullName>
+                <default>false</default>
+                <label>3661 - TELEPHONE &amp; TELEGRAPH APPARATUS</label>
+            </value>
+            <value>
+                <fullName>5084 - WHOLESALE-INDUSTRIAL MACHINERY &amp; EQUIPMENT</fullName>
+                <default>false</default>
+                <label>5084 - WHOLESALE-INDUSTRIAL MACHINERY &amp; EQUIPMENT</label>
+            </value>
+            <value>
+                <fullName>5090 - WHOLESALE-MISC DURABLE GOODS</fullName>
+                <default>false</default>
+                <label>5090 - WHOLESALE-MISC DURABLE GOODS</label>
+            </value>
+            <value>
+                <fullName>5094 - WHOLESALE-JEWELRY, WATCHES, PRECIOUS STONES &amp; METALS</fullName>
+                <default>false</default>
+                <label>5094 - WHOLESALE-JEWELRY, WATCHES, PRECIOUS STONES &amp; METALS</label>
+            </value>
+            <value>
+                <fullName>5099 - WHOLESALE-DURABLE GOODS, NEC</fullName>
+                <default>false</default>
+                <label>5099 - WHOLESALE-DURABLE GOODS, NEC</label>
+            </value>
+            <value>
+                <fullName>5110 - WHOLESALE-PAPER &amp; PAPER PRODUCTS</fullName>
+                <default>false</default>
+                <label>5110 - WHOLESALE-PAPER &amp; PAPER PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>5122 - WHOLESALE-DRUGS, PROPRIETARIES &amp; DRUGGISTS&apos; SUNDRIES</fullName>
+                <default>false</default>
+                <label>5122 - WHOLESALE-DRUGS, PROPRIETARIES &amp; DRUGGISTS&apos; SUNDRIES</label>
+            </value>
+            <value>
+                <fullName>5130 - WHOLESALE-APPAREL, PIECE GOODS &amp; NOTIONS</fullName>
+                <default>false</default>
+                <label>5130 - WHOLESALE-APPAREL, PIECE GOODS &amp; NOTIONS</label>
+            </value>
+            <value>
+                <fullName>5140 - WHOLESALE-GROCERIES &amp; RELATED PRODUCTS</fullName>
+                <default>false</default>
+                <label>5140 - WHOLESALE-GROCERIES &amp; RELATED PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>5141 - WHOLESALE-GROCERIES, GENERAL LINE</fullName>
+                <default>false</default>
+                <label>5141 - WHOLESALE-GROCERIES, GENERAL LINE</label>
+            </value>
+            <value>
+                <fullName>5150 - WHOLESALE-FARM PRODUCT RAW MATERIALS</fullName>
+                <default>false</default>
+                <label>5150 - WHOLESALE-FARM PRODUCT RAW MATERIALS</label>
+            </value>
+            <value>
+                <fullName>5160 - WHOLESALE-CHEMICALS &amp; ALLIED PRODUCTS</fullName>
+                <default>false</default>
+                <label>5160 - WHOLESALE-CHEMICALS &amp; ALLIED PRODUCTS</label>
+            </value>
+            <value>
+                <fullName>5171 - WHOLESALE-PETROLEUM BULK STATIONS &amp; TERMINALS</fullName>
+                <default>false</default>
+                <label>5171 - WHOLESALE-PETROLEUM BULK STATIONS &amp; TERMINALS</label>
+            </value>
+            <value>
+                <fullName>5172 - WHOLESALE-PETROLEUM &amp; PETROLEUM PRODUCTS (NO BULK STATIONS)</fullName>
+                <default>false</default>
+                <label>5172 - WHOLESALE-PETROLEUM &amp; PETROLEUM PRODUCTS (NO BULK STATIONS)</label>
+            </value>
+            <value>
+                <fullName>5180 - WHOLESALE-BEER, WINE &amp; DISTILLED ALCOHOLIC BEVERAGES</fullName>
+                <default>false</default>
+                <label>5180 - WHOLESALE-BEER, WINE &amp; DISTILLED ALCOHOLIC BEVERAGES</label>
+            </value>
+            <value>
+                <fullName>5190 - WHOLESALE-MISCELLANEOUS NONDURABLE GOODS</fullName>
+                <default>false</default>
+                <label>5190 - WHOLESALE-MISCELLANEOUS NONDURABLE GOODS</label>
+            </value>
+            <value>
+                <fullName>5200 - RETAIL-BUILDING MATERIALS, HARDWARE, GARDEN SUPPLY</fullName>
+                <default>false</default>
+                <label>5200 - RETAIL-BUILDING MATERIALS, HARDWARE, GARDEN SUPPLY</label>
+            </value>
+            <value>
+                <fullName>5211 - RETAIL-LUMBER &amp; OTHER BUILDING MATERIALS DEALERS</fullName>
+                <default>false</default>
+                <label>5211 - RETAIL-LUMBER &amp; OTHER BUILDING MATERIALS DEALERS</label>
+            </value>
+            <value>
+                <fullName>5271 - RETAIL-MOBILE HOME DEALERS</fullName>
+                <default>false</default>
+                <label>5271 - RETAIL-MOBILE HOME DEALERS</label>
+            </value>
+            <value>
+                <fullName>5311 - RETAIL-DEPARTMENT STORES</fullName>
+                <default>false</default>
+                <label>5311 - RETAIL-DEPARTMENT STORES</label>
+            </value>
+            <value>
+                <fullName>5331 - RETAIL-VARIETY STORES</fullName>
+                <default>false</default>
+                <label>5331 - RETAIL-VARIETY STORES</label>
+            </value>
+            <value>
+                <fullName>5399 - RETAIL-MISC GENERAL MERCHANDISE STORES</fullName>
+                <default>false</default>
+                <label>5399 - RETAIL-MISC GENERAL MERCHANDISE STORES</label>
+            </value>
+            <value>
+                <fullName>5400 - RETAIL-FOOD STORES</fullName>
+                <default>false</default>
+                <label>5400 - RETAIL-FOOD STORES</label>
+            </value>
+            <value>
+                <fullName>5411 - RETAIL-GROCERY STORES</fullName>
+                <default>false</default>
+                <label>5411 - RETAIL-GROCERY STORES</label>
+            </value>
+            <value>
+                <fullName>5412 - RETAIL-CONVENIENCE STORES</fullName>
+                <default>false</default>
+                <label>5412 - RETAIL-CONVENIENCE STORES</label>
+            </value>
+            <value>
+                <fullName>5500 - RETAIL-AUTO DEALERS &amp; GASOLINE STATIONS</fullName>
+                <default>false</default>
+                <label>5500 - RETAIL-AUTO DEALERS &amp; GASOLINE STATIONS</label>
+            </value>
+            <value>
+                <fullName>5531 - RETAIL-AUTO &amp; HOME SUPPLY STORES</fullName>
+                <default>false</default>
+                <label>5531 - RETAIL-AUTO &amp; HOME SUPPLY STORES</label>
+            </value>
+            <value>
+                <fullName>5600 - RETAIL-APPAREL &amp; ACCESSORY STORES</fullName>
+                <default>false</default>
+                <label>5600 - RETAIL-APPAREL &amp; ACCESSORY STORES</label>
+            </value>
+            <value>
+                <fullName>5621 - RETAIL-WOMEN&apos;S CLOTHING STORES</fullName>
+                <default>false</default>
+                <label>5621 - RETAIL-WOMEN&apos;S CLOTHING STORES</label>
+            </value>
+            <value>
+                <fullName>5651 - RETAIL-FAMILY CLOTHING STORES</fullName>
+                <default>false</default>
+                <label>5651 - RETAIL-FAMILY CLOTHING STORES</label>
+            </value>
+            <value>
+                <fullName>5661 - RETAIL-SHOE STORES</fullName>
+                <default>false</default>
+                <label>5661 - RETAIL-SHOE STORES</label>
+            </value>
+            <value>
+                <fullName>5700 - RETAIL-HOME FURNITURE, FURNISHINGS &amp; EQUIPMENT STORES</fullName>
+                <default>false</default>
+                <label>5700 - RETAIL-HOME FURNITURE, FURNISHINGS &amp; EQUIPMENT STORES</label>
+            </value>
+            <value>
+                <fullName>5712 - RETAIL-FURNITURE STORES</fullName>
+                <default>false</default>
+                <label>5712 - RETAIL-FURNITURE STORES</label>
+            </value>
+            <value>
+                <fullName>5731 - RETAIL-RADIO, TV &amp; CONSUMER ELECTRONICS STORES</fullName>
+                <default>false</default>
+                <label>5731 - RETAIL-RADIO, TV &amp; CONSUMER ELECTRONICS STORES</label>
+            </value>
+            <value>
+                <fullName>5734 - RETAIL-COMPUTER &amp; COMPUTER SOFTWARE STORES</fullName>
+                <default>false</default>
+                <label>5734 - RETAIL-COMPUTER &amp; COMPUTER SOFTWARE STORES</label>
+            </value>
+            <value>
+                <fullName>5735 - RETAIL-RECORD &amp; PRERECORDED TAPE STORES</fullName>
+                <default>false</default>
+                <label>5735 - RETAIL-RECORD &amp; PRERECORDED TAPE STORES</label>
+            </value>
+            <value>
+                <fullName>5810 - RETAIL-EATING &amp; DRINKING PLACES</fullName>
+                <default>false</default>
+                <label>5810 - RETAIL-EATING &amp; DRINKING PLACES</label>
+            </value>
+            <value>
+                <fullName>5812 - RETAIL-EATING PLACES</fullName>
+                <default>false</default>
+                <label>5812 - RETAIL-EATING PLACES</label>
+            </value>
+            <value>
+                <fullName>5900 - RETAIL-MISCELLANEOUS RETAIL</fullName>
+                <default>false</default>
+                <label>5900 - RETAIL-MISCELLANEOUS RETAIL</label>
+            </value>
+            <value>
+                <fullName>5912 - RETAIL-DRUG STORES AND PROPRIETARY STORES</fullName>
+                <default>false</default>
+                <label>5912 - RETAIL-DRUG STORES AND PROPRIETARY STORES</label>
+            </value>
+            <value>
+                <fullName>5940 - RETAIL-MISCELLANEOUS SHOPPING GOODS STORES</fullName>
+                <default>false</default>
+                <label>5940 - RETAIL-MISCELLANEOUS SHOPPING GOODS STORES</label>
+            </value>
+            <value>
+                <fullName>5944 - RETAIL-JEWELRY STORES</fullName>
+                <default>false</default>
+                <label>5944 - RETAIL-JEWELRY STORES</label>
+            </value>
+            <value>
+                <fullName>5945 - RETAIL-HOBBY, TOY &amp; GAME SHOPS</fullName>
+                <default>false</default>
+                <label>5945 - RETAIL-HOBBY, TOY &amp; GAME SHOPS</label>
+            </value>
+            <value>
+                <fullName>5960 - RETAIL-NONSTORE RETAILERS</fullName>
+                <default>false</default>
+                <label>5960 - RETAIL-NONSTORE RETAILERS</label>
+            </value>
+            <value>
+                <fullName>5961 - RETAIL-CATALOG &amp; MAIL-ORDER HOUSES</fullName>
+                <default>false</default>
+                <label>5961 - RETAIL-CATALOG &amp; MAIL-ORDER HOUSES</label>
+            </value>
+            <value>
+                <fullName>5990 - RETAIL-RETAIL STORES, NEC</fullName>
+                <default>false</default>
+                <label>5990 - RETAIL-RETAIL STORES, NEC</label>
+            </value>
+            <value>
+                <fullName>6021 - NATIONAL COMMERCIAL BANKS</fullName>
+                <default>false</default>
+                <label>6021 - NATIONAL COMMERCIAL BANKS</label>
+            </value>
+            <value>
+                <fullName>6022 - STATE COMMERCIAL BANKS</fullName>
+                <default>false</default>
+                <label>6022 - STATE COMMERCIAL BANKS</label>
+            </value>
+            <value>
+                <fullName>6029 - COMMERCIAL BANKS, NEC</fullName>
+                <default>false</default>
+                <label>6029 - COMMERCIAL BANKS, NEC</label>
+            </value>
+            <value>
+                <fullName>6035 - SAVINGS INSTITUTION, FEDERALLY CHARTERED</fullName>
+                <default>false</default>
+                <label>6035 - SAVINGS INSTITUTION, FEDERALLY CHARTERED</label>
+            </value>
+            <value>
+                <fullName>6036 - SAVINGS INSTITUTIONS, NOT FEDERALLY CHARTERED</fullName>
+                <default>false</default>
+                <label>6036 - SAVINGS INSTITUTIONS, NOT FEDERALLY CHARTERED</label>
+            </value>
+            <value>
+                <fullName>6099 - FUNCTIONS RELATED TO DEPOSITORY BANKING, NEC</fullName>
+                <default>false</default>
+                <label>6099 - FUNCTIONS RELATED TO DEPOSITORY BANKING, NEC</label>
+            </value>
+            <value>
+                <fullName>6111 - FEDERAL &amp; FEDERALLY-SPONSORED CREDIT AGENCIES</fullName>
+                <default>false</default>
+                <label>6111 - FEDERAL &amp; FEDERALLY-SPONSORED CREDIT AGENCIES</label>
+            </value>
+            <value>
+                <fullName>6141 - PERSONAL CREDIT INSTITUTIONS</fullName>
+                <default>false</default>
+                <label>6141 - PERSONAL CREDIT INSTITUTIONS</label>
+            </value>
+            <value>
+                <fullName>6153 - SHORT-TERM BUSINESS CREDIT INSTITUTIONS</fullName>
+                <default>false</default>
+                <label>6153 - SHORT-TERM BUSINESS CREDIT INSTITUTIONS</label>
+            </value>
+            <value>
+                <fullName>6159 - MISCELLANEOUS BUSINESS CREDIT INSTITUTION</fullName>
+                <default>false</default>
+                <label>6159 - MISCELLANEOUS BUSINESS CREDIT INSTITUTION</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

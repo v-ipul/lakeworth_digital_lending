@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_Card_Use_Ratio__c</fullName>
+    <description>Ratio of credit used to credit available across all cards.</description>
+    <externalId>false</externalId>
+    <label>Credit Card Use Ratio</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

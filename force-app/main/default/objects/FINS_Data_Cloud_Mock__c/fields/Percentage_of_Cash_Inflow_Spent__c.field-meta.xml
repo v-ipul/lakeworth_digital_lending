@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Percentage_of_Cash_Inflow_Spent__c</fullName>
+    <description>The total monthly cash inflow divided by the total cash outflow.</description>
+    <externalId>false</externalId>
+    <label>Percentage of Cash Inflow Spent</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

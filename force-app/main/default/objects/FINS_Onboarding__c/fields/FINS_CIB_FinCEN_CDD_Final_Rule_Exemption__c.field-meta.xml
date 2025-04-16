@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FINS_CIB_FinCEN_CDD_Final_Rule_Exemption__c</fullName>
+    <externalId>false</externalId>
+    <label>FinCEN CDD Final Rule Exemption</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>FI regulated by a Federal regulator</fullName>
+                <default>false</default>
+                <label>FI regulated by a Federal regulator</label>
+            </value>
+            <value>
+                <fullName>Bank regulated by a state regulator</fullName>
+                <default>false</default>
+                <label>Bank regulated by a state regulator</label>
+            </value>
+            <value>
+                <fullName>A department or agency of the US, of any State, or of any political subdivision of a State</fullName>
+                <default>false</default>
+                <label>A department or agency of the US, of any State, or of any political subdivision of a State</label>
+            </value>
+            <value>
+                <fullName>Any entity established under the laws of the US, or any State, or of any political subdivision of any State, or under an interstate compact</fullName>
+                <default>false</default>
+                <label>Any entity established under the laws of the US, or any State, or of any political subdivision of any State, or under an interstate compact</label>
+            </value>
+            <value>
+                <fullName>Any entity (other than a bank) whose common stock or analogous ​​equity interests are listed on the New York, American, or NASDAQ stock exchange</fullName>
+                <default>false</default>
+                <label>Any entity (other than a bank) whose common stock or analogous ​​equity interests are listed on the New York, American, or NASDAQ stock exchange</label>
+            </value>
+            <value>
+                <fullName>Any entity organized under the laws of the US or of any State at least 51% of whose common stock or analogous equity interests are held by a listed entity</fullName>
+                <default>false</default>
+                <label>Any entity organized under the laws of the US or of any State at least 51% of whose common stock or analogous equity interests are held by a listed entity</label>
+            </value>
+            <value>
+                <fullName>Issuers of securities registered under section 12 of the Securities Exchange Act of 1934 (SEA) or that is required to file reports under 15(d) of that Act</fullName>
+                <default>false</default>
+                <label>Issuers of securities registered under section 12 of the Securities Exchange Act of 1934 (SEA) or that is required to file reports under 15(d) of that Act</label>
+            </value>
+            <value>
+                <fullName>An investment company, as defined in section 3 of the Investment Company Act of 1940, registered with the U.S. Securities and Exchange Commission (SEC)</fullName>
+                <default>false</default>
+                <label>An investment company, as defined in section 3 of the Investment Company Act of 1940, registered with the U.S. Securities and Exchange Commission (SEC)</label>
+            </value>
+            <value>
+                <fullName>An SEC-registered investment adviser, as defined in section 202(a)(11) of the Investment Advisers Act of 1940</fullName>
+                <default>false</default>
+                <label>An SEC-registered investment adviser, as defined in section 202(a)(11) of the Investment Advisers Act of 1940</label>
+            </value>
+            <value>
+                <fullName>An exchange or clearing agency, as defined in section 3 of the SEA, registered under section 6 or 17A of that Act</fullName>
+                <default>false</default>
+                <label>An exchange or clearing agency, as defined in section 3 of the SEA, registered under section 6 or 17A of that Act</label>
+            </value>
+            <value>
+                <fullName>Any other entity registered with the SEC under the SEA</fullName>
+                <default>false</default>
+                <label>Any other entity registered with the SEC under the SEA</label>
+            </value>
+            <value>
+                <fullName>A registered entity, commodity pool operator, commodity trading advisor, retail foreign exchange dealer, swap dealer, or major swap participant, defined in section 1a of the Commodity Exchange Act, registered with the Commodity Futures Trading Commission</fullName>
+                <default>false</default>
+                <label>A registered entity, commodity pool operator, commodity trading advisor, retail foreign exchange dealer, swap dealer, or major swap participant, defined in section 1a of the Commodity Exchange Act, registered with the Commodity Futures Trading Commission</label>
+            </value>
+            <value>
+                <fullName>A public accounting firm registered under section 102 of the Sarbanes-Oxley Act</fullName>
+                <default>false</default>
+                <label>A public accounting firm registered under section 102 of the Sarbanes-Oxley Act</label>
+            </value>
+            <value>
+                <fullName>A bank holding company, as defined in section 2 of the Bank Holding Company</fullName>
+                <default>false</default>
+                <label>A bank holding company, as defined in section 2 of the Bank Holding Company</label>
+            </value>
+            <value>
+                <fullName>Act of 1956 (12 USC 1841) or savings and loan holding company, as defined in section 10(n) of the Home Owners’ Loan Act (12 USC 1467a(n))</fullName>
+                <default>false</default>
+                <label>Act of 1956 (12 USC 1841) or savings and loan holding company, as defined in section 10(n) of the Home Owners’ Loan Act (12 USC 1467a(n))</label>
+            </value>
+            <value>
+                <fullName>A pooled investment vehicle operated or advised by a financial institution excluded from the definition of legal entity customer under the final CDD rule</fullName>
+                <default>false</default>
+                <label>A pooled investment vehicle operated or advised by a financial institution excluded from the definition of legal entity customer under the final CDD rule</label>
+            </value>
+            <value>
+                <fullName>An insurance company regulated by a State</fullName>
+                <default>false</default>
+                <label>An insurance company regulated by a State</label>
+            </value>
+            <value>
+                <fullName>A financial market utility designated by the Financial Stability Oversight Council under Title VIII of the Dodd-Frank Wall Street Reform and Customer Protection Act of 2010</fullName>
+                <default>false</default>
+                <label>A financial market utility designated by the Financial Stability Oversight Council under Title VIII of the Dodd-Frank Wall Street Reform and Customer Protection Act of 2010</label>
+            </value>
+            <value>
+                <fullName>A foreign financial institution established in a jurisdiction where the regulator of such institution maintains beneficial ownership information regarding such institution</fullName>
+                <default>false</default>
+                <label>A foreign financial institution established in a jurisdiction where the regulator of such institution maintains beneficial ownership information regarding such institution</label>
+            </value>
+            <value>
+                <fullName>A non-U.S. governmental department, agency or political subdivision that engages only in governmental rather than commercial activities</fullName>
+                <default>false</default>
+                <label>A non-U.S. governmental department, agency or political subdivision that engages only in governmental rather than commercial activities</label>
+            </value>
+            <value>
+                <fullName>Any legal entity only to the extent that it opens a private banking account subject to 31 CFR 1010.620</fullName>
+                <default>false</default>
+                <label>Any legal entity only to the extent that it opens a private banking account subject to 31 CFR 1010.620</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
